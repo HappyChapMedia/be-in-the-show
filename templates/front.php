@@ -4,90 +4,44 @@ Template Name: Front
 */
 get_header(); ?>
 
-<header id="front-hero" role="banner">
-	<div class="marketing">
-		<div class="tagline">
-			<h1><?php bloginfo( 'name' ); ?></h1>
-			<h4 class="subheader"><?php bloginfo( 'description' ); ?></h4>
-			<a role="button" class="download large button sites-button hide-for-small-only" href="https://github.com/olefredrik/foundationpress">Download FoundationPress</a>
-		</div>
+<?php
+	// If a feature image is set, get the id, so it can be injected as a css background property
+	if ( has_post_thumbnail( $post->ID ) ) :
+		$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
+		$image = $image[0];
+		?>
 
-		<div id="watch" class="small-12 columns">
-			<section id="stargazers">
-				<a href="https://github.com/olefredrik/foundationpress">1.5k stargazers</a>
-			</section>
-			<section id="twitter">
-				<a href="https://twitter.com/olefredrik">@olefredrik</a>
-			</section>
-		</div>
-	</div>
-
-</header>
-
-<?php do_action( 'foundationpress_before_content' ); ?>
-<?php while ( have_posts() ) : the_post(); ?>
-<section class="intro" role="main">
-	<div class="fp-intro">
-
-		<div <?php post_class() ?> id="post-<?php the_ID(); ?>">
-			<?php do_action( 'foundationpress_page_before_entry_content' ); ?>
-			<div class="entry-content">
-				<?php the_content(); ?>
+	<header id="front-hero" role="banner" style="background-image: url('<?php echo $image ?>')">
+		<div class="marketing">
+			<div class="tagline">
+				<h1><small>A community <br></small><strong>talent show</strong> <br><small class="salt">&amp;</small> <strong class="dance-showcase">dance showcase</strong></h1>
+				<p class="subheader">Friday, <strong>Jan. 29th</strong> @ <strong>The Mount Baker Theatre</strong> </p>
+				<!-- <a role="button" class="download large button sites-button hide-for-small-only" href="<?php echo esc_url( home_url( '/perform' ) ); ?>">Download FoundationPress</a> -->
 			</div>
-			<footer>
-				<?php wp_link_pages( array('before' => '<nav id="page-nav"><p>' . __( 'Pages:', 'foundationpress' ), 'after' => '</p></nav>' ) ); ?>
-				<p><?php the_tags(); ?></p>
-			</footer>
-			<?php do_action( 'foundationpress_page_before_comments' ); ?>
-			<?php comments_template(); ?>
-			<?php do_action( 'foundationpress_page_after_comments' ); ?>
 		</div>
-</section>
-<?php endwhile;?>
-<?php do_action( 'foundationpress_after_content' ); ?>
 
-<div class="section-divider">
-	<hr />
-</div>
-
-
-<section class="benefits">
-	<header>
-		<h2>Build Foundation based sites, powered by WordPress</h2>
-		<h4>Foundation is the professional choice for designers, developers and teams. <br /> WordPress is by far, <a href="http://trends.builtwith.com/cms">the world's most popular CMS</a> (currently powering 38% of the web).</h4>
 	</header>
+	
+	<?php endif; ?>
 
-	<div class="semantic">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/semantic.svg" alt="semantic">
-		<h3>Semantic</h3>
-		<p>Everything is semantic. You can have the cleanest markup without sacrificing the utility and speed of Foundation.</p>
-	</div>
 
-	<div class="responsive">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/responsive.svg" alt="responsive">
-		<h3>Responsive</h3>
-		<p>You can build for small devices first. Then, as devices get larger and larger, layer in more complexity for a complete responsive design.</p>
+	<section class="intro" role="main">
+		<header class="section-intro">
+			<h2>One stage, one community, one opportunity to see great Bellingham talent all in one place!</h2>
+			<p><strong>BE in the Show</strong> is a celebration of the performing arts in Bellingham. Local <em>dancers</em>, <em>singers</em>, <em>musicians</em>, <em>actors</em> and more will grace the beautiful <strong>Mount Baker Theatre</strong> main stage for a night of entertainment featuring a variety of talent from amateurs to professionals. <strong>BE</strong> a part of a new and fun tradition for Bellingham during our greyer months and add a bit of brightness with <strong>BE in the Show</strong>!</p>
+			<p class="cta"><a href="<?php echo esc_url( home_url( '/about-the-show' ) ); ?>" class="button large">Learn More</a> or <a href="http://www.mountbakertheatre.com/shows/be-in-the-show/" class="button large">Get Tickets!</a></p>
+		</header>
+	</section>
 
-	</div>
 
-	<div class="customizable">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/customizable.svg" alt="customizable">
-		<h3>Customizable</h3>
-		<p>You can customize your build to include or remove certain elements, as well as define the size of columns, colors, font size and more.</p>
+	<section class="perform">
+		<header class="section-intro">
+			<h2>Perform in the Show!</h2>
+			<p>Now is your chance to shine! Perform under the lights on the big stage at the Mount Baker Theatre! Singers, dancers, magicians, actors, contortionists, acrobats, and performers of all types are encouraged to take part in this exciting production and <strong>BE in the Show</strong></p>
+			<p class="cta"><a href="<?php echo esc_url( home_url( '/perform' ) ); ?>" class="button large">Learn more about performing</a></p>
+		</header>
 
-	</div>
-
-	<div class="professional">
-		<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/demo/professional.svg" alt="professional">
-		<h3>Professional</h3>
-		<p>Millions of designers and developers depend on Foundation. We have business support, training and consulting to help grow your product or service.</p>
-	</div>
-
-	<div class="why-foundation">
-		<a href="/kitchen-sink">See what's in Foundation out of the box →</a>
-	</div>
-
-</section>
+	</section>
 
 
 

@@ -5,6 +5,12 @@
   }
 }
 
+.title-bar {
+	@include breakpoint(medium) {
+	  display: inline;
+	}
+}
+
 .title-bar-title {
   a {
     font-size: 1rem;

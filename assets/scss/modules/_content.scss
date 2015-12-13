@@ -1,0 +1,31 @@
+.container {
+	background: url('../images/mt-baker-theatre-exterior-halftone.jpg') no-repeat ;
+	// background-size: contain;
+	background-position: bottom right;
+	// padding-top: rem-calc(30);
+	padding-bottom: rem-calc(260);
+}
+
+.entry-content {
+	p {
+		font-size: rem-calc(20);
+	}
+}
+
+.callout {
+	padding: rem-calc(30);
+	margin-bottom: rem-calc(60);
+	background: lighten($yellow, 10%);
+	border: none;
+	font-size: rem-calc(20);
+	// line-height: 2;
+	strong {
+		color: $blue;
+	}
+	ul {
+		list-style: none;
+	}
+	li {
+		margin-bottom: 10px;
+	}
+}

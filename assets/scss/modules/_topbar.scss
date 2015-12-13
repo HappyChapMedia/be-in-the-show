@@ -1,8 +1,12 @@
 .top-bar {
+  height: rem-calc(100);
+  // background-color: $primary-color;
 
+  .top-bar-left .menu, .top-bar-left .menu a:hover:not(.button) {
+    background-color: transparent;
+  }
   .menu .home a, {
-    font-size: 1rem;
-    color: #B9B9B9;
+    margin: -5px 0 -0 -5px;
   }
 
   .menu a {
@@ -15,17 +19,28 @@
     font-size: 0.8rem;
 
     &:hover:not(.button) {
-      background-color: #2a2a2a;
+      color: $yellow;
+      // border-bottom: solid 5px $yellow;
+      // padding-bottom: 10px;
+      // background-color: #2a2a2a;
     }
   }
 
-  .menu>li:not(.menu-text)>a {
-    padding: 1rem;
+  .menu>li:not(.home) {
+    padding: 3rem .25rem 0;
+  }
+
+  .menu>li:not(.home)>a {
+    @include breakpoint(large) {
+      font-size: rem-calc(25);
+    }
+    font-weight: 300;
+    text-transform: uppercase;
   }
 
   .menu li:not(:last-child) {
     @include breakpoint(medium) {
-      border-right: 1px solid #4e4e4e;
+      // border-right: 1px solid #4e4e4e;
     }
   }
 
@@ -44,6 +59,14 @@
   }
 
 
+  // .menu a:hover:not(.button) {
+  //   background: none;
+  // }
+
+}
+
+.top-bar ul {
+  background: transparent;
 }
 
 .vertical &.menu {
@@ -51,6 +74,7 @@
 }
 
 .title-bar {
+  background: $primary-color;
   @include breakpoint(medium) {
     display: none;
   }

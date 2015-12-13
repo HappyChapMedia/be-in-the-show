@@ -1,25 +1,26 @@
 // Page header
 #front-hero {
 	.marketing {
-		@include grid-row();
-		max-width: 55rem;
+		// @include grid-row();
+		// max-width: 55rem;
 	}
 
 	@include breakpoint(small) {
-		background: url('../images/demo/hero-bg-foundation-6.svg') bottom center;
 		background-size: cover;
-		background-position: center;
+		background-position: bottom center;
 		padding: rem-calc(65%) 0;
-		margin: 0 0 rem-calc(32);
-		height: auto;
+		// margin: 0 0 rem-calc(32);
+		height: 500px;
 		position: relative;
 		text-align: left;
 	}
 
 	@include breakpoint(medium) {
-		height: rem-calc(685);
-		margin: 0 0 rem-calc(72);
+		height: rem-calc(500);
+		// margin: 0 0 rem-calc(72);
 	}
+
+	padding: 20px 10px;
 
 	#watch {
 		section {
@@ -75,61 +76,95 @@
 
 		@media screen and (min-width: 871px) {
 			@include grid-column(5);
-			padding-top: 6rem;
+			// padding-top: 1rem;
+			
 		}
 	}
 
 	h1 {
-		color: #fff;
-		font-weight: 500;
-	}
-
-	h4 {
-		color: #fefefe;
-		font-weight: 300;
-		font-size: 1.3125rem;
-	}
-
-	.fpmock img {
-		@media screen and (max-width: 870px) {
-			display: none;
+		font-size: rem-calc(80);
+		line-height: 1em;
+		font-weight: 200;
+		color: $blue;
+		strong {
+			color: $purple;
+			font-weight: 900;
+			text-transform: uppercase;
+		}
+		small {
+			color: $blue;
+			font-size: 60%;
+		}
+		.dance-showcase {
+			color: $blue;
 		}
 
-		position: absolute;
-		top:rem-calc(21);
+		@include breakpoint (1200px) {
+			font-size: rem-calc(80);
+		}
+		@include breakpoint (1620px) {
+			font-size: rem-calc(100);
+		}
+		@include breakpoint (small) {
+			font-size: rem-calc(70);
+		}
 	}
 
-	.download { margin-top: rem-calc(20); }
+	.subheader {
+		color: $secondary-color;
+		font-size: rem-calc(20);
+	}
 
+}
+
+.home section header {
+	padding: rem-calc(100) rem-calc(50);
+}
+
+.section-intro {
+	text-align: center;
+	h2 {
+		font-weight: 700;
+		margin-bottom: 1.5rem;
+	}
+
+	p {
+		font-size: rem-calc(20);
+		line-height: 1.6;
+	}
+	@include breakpoint(small) {
+		@include grid-column(12);
+		h2 {
+			font-size: rem-calc(30);
+		}
+	}
+
+	@include breakpoint(medium) {
+		@include grid-column(10);
+		@include grid-column-offset(1);
+		h2 {
+			font-size: rem-calc(50);
+		}
+	}
+}
+
+.cta {
+	margin-top: rem-calc(80);
 }
 
 // Intro
 .intro {
-	@include grid-row();
+	// @include grid-row();
+	display: inline-block;
+	
+	background: $purple;
+	color: $white;
 
-	.fp-intro {
-
-		@include breakpoint(small) {
-			@include grid-column(12);
+	.section-intro {
+		h2 {
+			color: $yellow;
 		}
 
-		@include breakpoint(medium) {
-			@include grid-column(10);
-			@include grid-column-offset(1);
-
-			h2 {
-				font-weight: 300;
-				margin-bottom: 1.5rem;
-			}
-
-			h4 {
-				font-size: 1.125rem;
-				line-height: 1.6;
-				color: #777;
-				margin-bottom: 2rem;
-			}
-
-		}
 	}
 }
 
@@ -145,55 +180,13 @@
 
 
 // Benefits
-.benefits {
+.perform {
 	@include grid-row();
 	text-align: center;
-
-	header {
-		@include grid-column(12);
-
+	.section-intro {
 		h2 {
-			font-weight: 300;
+			color: $blue;
 		}
-
-		h4 {
-			font-size: 1.125rem;
-			line-height: 1.6;
-			color: #777;
-		}
-	}
-
-	.semantic,
-	.responsive,
-	.customizable,
-	.professional {
-		@include breakpoint(small) {
-			@include grid-column(12);
-		}
-
-		@include breakpoint(medium) {
-			@include grid-column(3);
-		}
-
-		img {
-			padding: 1.25rem;
-    	margin: 1rem auto 0 auto;
-		}
-
-		h3 {
-			color: #0a0a0a;
-			font-weight: 300;
-			font-size: 1.75rem;
-		}
-
-		p { font-size: 0.9375rem; }
-
-	}
-
-	.why-foundation {
-		@include grid-row();
-		@include grid-column(12);
-		margin-top: 4rem;
 	}
 
 }

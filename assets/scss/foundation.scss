@@ -16,6 +16,7 @@
 @import '../components/foundation-sites/scss/util/util';
 
 //  Settings and wp-override styles:
+@import "global/custom_settings"; // Custom variables - colors, fonts, etc.
 @import "global/settings"; // Default settings file. Uncomment each setting you need to change
 @import "global/wp-admin"; // Fix issues with wp-admin bar positioning
 @import "global/wp-overrides"; // Override the default WordPress styling for some elements
@@ -114,6 +115,7 @@
 @import "modules/topbar";
 @import "modules/footer";
 @import "modules/sidebar";
+@import "modules/content";
 
 // Components
 @import "components/buttons";

@@ -6,5 +6,6 @@
 		?>
 
 	<header id="featured-hero" role="banner" style="background-image: url('<?php echo $image ?>')">
+	
 	</header>';
 	<?php endif; ?>
