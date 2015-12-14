@@ -29,7 +29,7 @@
 				<?php do_action( 'foundationpress_after_footer' ); ?>
 			</footer>
 			<div class="footer-credits">
-				<p class="align-left">Photos via Flickr &ndash; <a href="https://www.flickr.com/photos/evarinaldiphotography/" target="_blank">Eva Rinaldi</a>, <a href="https://www.flickr.com/photos/walterpro/" target="_blank">Walter</a> <span class="salt">&amp;</span> <a href="https://www.flickr.com/photos/familymwr/" target="_blank">U.S. Army</a></p>
+				<p class="align-left">Photos via Flickr &ndash; <a href="https://www.flickr.com/photos/evarinaldiphotography/" target="_blank">Eva Rinaldi</a>, <a href="https://www.flickr.com/photos/walterpro/" target="_blank">Walter</a>, <a href="https://www.flickr.com/photos/jus10h/" target="_blank">Justin Higuchi</a> <span class="salt">&amp;</span> <a href="https://www.flickr.com/photos/familymwr/" target="_blank">U.S. Army</a></p>
 			</div>
 		</div>
 	
