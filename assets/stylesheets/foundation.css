@@ -6181,7 +6181,8 @@ table.hover tr:nth-of-type(even):hover {
         font-size: 3.125rem; } }
 
 .cta {
-  margin-top: 3.75rem; }
+  margin-top: 3.75rem;
+  line-height: 4 !important; }
 
 .home .intro {
   display: inline-block;
