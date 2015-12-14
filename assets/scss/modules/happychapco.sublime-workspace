@@ -316,71 +316,52 @@
 	"buffers":
 	[
 		{
-			"file": "header.php",
+			"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets/scss/templates/_front.scss",
 			"settings":
 			{
-				"buffer_size": 3033,
+				"buffer_size": 2870,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "templates/front.php",
+			"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/library/foundation.php",
 			"settings":
 			{
-				"buffer_size": 2480,
+				"buffer_size": 6716,
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"contents": "<p class=\"intro\">Intro paragraph talking about performing in the show will go here.</p>\n\n<h2>Auditions</h2>\n\nAuditions will be held...\n\n<h2>Sign-up</h2>\n\n<iframe src=\"https://docs.google.com/forms/d/1dGJv3XV8wnRVo2ESaBOJftvio73AaQRSMQ2Uuu3s2Hs/viewform?embedded=true\" width=\"100%\" height=\"700\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe>\n\n<h2>Performing Info</h2>\n\n<h3>Time allotment for performers:</h3>\n\n<table>\n	<thead>\n		<tr>\n			<th>Dancers</th>\n			<th>Singers</th>\n			<th>Cheer w/ Stunting</th>\n			<th>Musicians</th>\n			<th>Other - actors/improv/pets/etc.</th>\n		</tr>\n	</thead>\n	<tbody>\n		<tr>\n			<td>1-10 members-max 2 min.</td>\n			<td>1-10 members-max 3 min.</td>\n			<td>Max 4 min.</td>\n			<td>1-3 members-max 4 min.</td>\n			<td>3-5 min. depending on act</td>\n		</tr>\n		<tr>\n			<td>11-20 members-max 3 min.</td>\n			<td>11-20 members-max 4 min.</td>\n			<td></td>\n			<td>3-10  members-max 5 min.</td>\n			<td></td>\n		</tr>\n		<tr>\n			<td></td>\n			<td>20+ members-max 5 min.</td>\n			<td></td>\n			<td>10+ members-max 6 min.</td>\n			<td></td>\n		</tr>\n	</tbody>\n</table>\n\n<p>Thank you for your participation this is going to be an incredible community celebration!</p>",
-			"file": "pages/perform.html",
-			"file_size": 1151,
-			"file_write_time": 130944473555710586,
+			"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/header.php",
 			"settings":
 			{
-				"buffer_size": 1193,
+				"buffer_size": 2788,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/library/navigation.php",
+			"settings":
+			{
+				"buffer_size": 10721,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/functions.php",
+			"settings":
+			{
+				"buffer_size": 1511,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets/javascript/custom/custom.js",
+			"settings":
+			{
+				"buffer_size": 84,
 				"line_ending": "Windows",
-				"name": "<h3>Time allotment for performers:</h3>"
-			}
-		},
-		{
-			"file": "assets/scss/modules/_content.scss",
-			"settings":
-			{
-				"buffer_size": 534,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/scss/global/_settings.scss",
-			"settings":
-			{
-				"buffer_size": 13593,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "footer.php",
-			"settings":
-			{
-				"buffer_size": 1873,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/scss/templates/_front.scss",
-			"settings":
-			{
-				"buffer_size": 2793,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/scss/modules/_footer.scss",
-			"settings":
-			{
-				"buffer_size": 890,
-				"line_ending": "Windows"
+				"name": "define( 'GITHUB_UPDATER_EXTENDED_NAMING', true );"
 			}
 		}
 	],
@@ -477,32 +458,35 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/javascript",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/javascript/custom",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/javascript/vendor",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/components",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/global",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/modules",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/templates",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/library",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/parts",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/templates"
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco",
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets",
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets/javascript",
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets/javascript/custom",
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets/scss",
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets/scss/components",
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets/scss/global",
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets/scss/modules",
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets/scss/templates",
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco/library",
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco/parts"
 	],
 	"file_history":
 	[
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/footer.php",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/modules/_content.scss",
+		"/D/Ampps/www/happychapco/wp-content/themes/happychapco/style.css",
 		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/modules/_footer.scss",
+		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/templates/_front.scss",
+		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/footer.php",
+		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/global/_settings.scss",
+		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/modules/_content.scss",
+		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/pages/perform.html",
+		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/templates/front.php",
+		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/header.php",
 		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/modules/_topbar.scss",
 		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/global/_custom_settings.scss",
 		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/components/_buttons.scss",
 		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/foundation.scss",
 		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/components/_featured-image.scss",
 		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/components/_off-canvas.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/global/_settings.scss",
 		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/parts/featured-image.php",
 		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/templates/_page-default.scss",
 		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/components/_top-bar.scss",
@@ -615,12 +599,7 @@
 		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/node-sass/test/fixtures/spec/spec/libsass-todo-tests/bourbon/lib/helpers/_deprecated-webkit-gradient.scss",
 		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/grunt-contrib-watch/node_modules/gaze/test/add_test.js",
 		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/node-bourbon/assets/stylesheets/addons/_button.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/node-sass/node_modules/meow/node_modules/minimist/test/default_bool.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_socialist.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/pages/meeting-space.html",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/template-default.php",
-		"/C/Users/Casey/Desktop/slick.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/bower_components/foundation/js/foundation/foundation.clearing.js"
+		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/node-sass/node_modules/meow/node_modules/minimist/test/default_bool.js"
 	],
 	"find":
 	{
@@ -790,30 +769,145 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "header.php",
+					"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets/scss/templates/_front.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3033,
+						"buffer_size": 2870,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2243,
-								2243
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/library/foundation.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 6716,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								673,
+								673
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2788,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1732,
+								1732
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 34.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/library/navigation.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10721,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1998,
+								1998
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1511,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								811,
+								811
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -823,208 +917,26 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "templates/front.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2480,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2480,
-								2480
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "pages/perform.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								624,
-								624
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<h3>Time allotment for performers:</h3>",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "assets/scss/modules/_content.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 534,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								224,
-								224
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/scss/global/_settings.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13593,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1080,
-								1080
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 191.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
 					"buffer": 5,
-					"file": "footer.php",
+					"file": "/D/Ampps/www/happychapco/wp-content/themes/happychapco/assets/javascript/custom/custom.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1873,
+						"buffer_size": 84,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								940,
-								892
+								84,
+								35
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 6,
-					"file": "assets/scss/templates/_front.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2793,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2433,
-								2433
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1492.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "assets/scss/modules/_footer.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 890,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								625,
-								625
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"auto_name": "define( 'GITHUB_UPDATER_EXTENDED_NAMING', true );",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1033,6 +945,11 @@
 					"stack_index": 5,
 					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -1064,7 +981,7 @@
 		"cols":
 		[
 			0.0,
-			0.649342891279,
+			0.5,
 			1.0
 		],
 		"rows":
@@ -1091,7 +1008,7 @@
 		"height": 100.0
 	},
 	"pinned_build_system": "Packages/Python/Python.sublime-build",
-	"project": "be-in-the-show.sublime-project",
+	"project": "happychapco.sublime-project",
 	"replace":
 	{
 		"height": 62.0
@@ -1118,7 +1035,7 @@
 		[
 			[
 				"",
-				"D:\\Ampps\\www\\be-in-the-show\\wp-content\\themes\\be-in-the-show\\assets\\scss\\modules\\happychapco.sublime-project"
+				"D:\\Ampps\\www\\be-in-the-show\\wp-content\\themes\\be-in-the-show\\be-in-the-show.sublime-project"
 			]
 		],
 		"width": 475.0

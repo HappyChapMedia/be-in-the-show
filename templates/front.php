@@ -16,7 +16,7 @@ get_header(); ?>
 			<div class="tagline">
 				<h1><small>A community <br></small><strong>talent show</strong> <br><small class="salt">&amp;</small> <strong class="dance-showcase">dance showcase</strong></h1>
 				<p class="subheader">Friday, <strong>Jan. 29th</strong> @ <strong>The Mount Baker Theatre</strong> </p>
-				<!-- <a role="button" class="download large button sites-button hide-for-small-only" href="<?php echo esc_url( home_url( '/perform' ) ); ?>">Download FoundationPress</a> -->
+				<p class="cta"><a role="button" class="large button" href="<?php echo esc_url( home_url( '/about-the-show' ) ); ?>">See Show Details!</a></p>
 			</div>
 		</div>
 

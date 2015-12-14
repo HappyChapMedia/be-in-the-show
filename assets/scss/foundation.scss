@@ -20,6 +20,7 @@
 @import "global/settings"; // Default settings file. Uncomment each setting you need to change
 @import "global/wp-admin"; // Fix issues with wp-admin bar positioning
 @import "global/wp-overrides"; // Override the default WordPress styling for some elements
+@import "global/mixins"; //
 
 // Global variables and styles
 @import '../components/foundation-sites/scss/global';

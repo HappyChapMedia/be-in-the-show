@@ -1,6 +1,7 @@
 $yellow: #F6ED54;
 $blue: rgb(0,163,199);
 $purple: #B6377E;
+$green: #21b685;
 
 .salt {
   -moz-font-feature-settings: "salt";
@@ -8,3 +9,8 @@ $purple: #B6377E;
   font-feature-settings: "salt";
 }
 
+h1.entry-title {
+	color: $purple;
+	font-weight: 900;
+	font-size: rem-calc(60);
+}

@@ -33,6 +33,7 @@
 		.footer-nav {
 			padding-top: rem-calc(20);
 			display: none;
+			border-left: solid 1px $yellow;
 			@include breakpoint(large) {
 				display: inherit;
 			}
@@ -54,6 +55,16 @@
 			color: $white;
 			text-align: center;
 			text-transform: uppercase;
+		}
+	}
+	.footer-credits {
+		padding: rem-calc(10) rem-calc(20) 0;
+		background: $secondary-color;
+		text-align: center;
+		height: 100%;
+		a {
+			color: $white;
+
 		}
 	}
 }

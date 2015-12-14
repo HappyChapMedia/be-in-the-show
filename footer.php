@@ -23,13 +23,16 @@
 				<div class="footer-nav large-3 columns">
 					<?php wp_nav_menu( array('main' => 'main' )); ?>
 				</div>
-				<div class="tds large-3 columns">
+				<div class="tds large-2 columns">
 					<p>Presented by: <br> <a href="http://www.thedancestudio.net" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dance-studio-logo-horiz.png" alt="The Dance Studio"></a></p>
 				</div>
 				<?php do_action( 'foundationpress_after_footer' ); ?>
 			</footer>
+			<div class="footer-credits">
+				<p class="align-left">Photos via Flickr &ndash; <a href="https://www.flickr.com/photos/evarinaldiphotography/" target="_blank">Eva Rinaldi</a>, <a href="https://www.flickr.com/photos/walterpro/" target="_blank">Walter</a> <span class="salt">&amp;</span> <a href="https://www.flickr.com/photos/familymwr/" target="_blank">U.S. Army</a></p>
+			</div>
 		</div>
-
+	
 		<?php do_action( 'foundationpress_layout_end' ); ?>
 	<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
 		</div><!-- Close off-canvas wrapper inner -->

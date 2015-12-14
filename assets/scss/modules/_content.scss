@@ -2,30 +2,70 @@
 	background: url('../images/mt-baker-theatre-exterior-halftone.jpg') no-repeat ;
 	// background-size: contain;
 	background-position: bottom right;
-	// padding-top: rem-calc(30);
 	padding-bottom: rem-calc(260);
 }
 
+.blog .container {
+	padding-top: rem-calc(80);
+}
+
+#featured-hero {
+	border-bottom: solid rem-calc(30) $green;
+}
+
 .entry-content {
+	.intro {
+		font-size: 160%;
+	}
 	p {
 		font-size: rem-calc(20);
+	}
+	a {
+		font-weight: 500;
+		border-bottom: solid 5px;
+		@include border-opacity($yellow, 60);
 	}
 }
 
 .callout {
-	padding: rem-calc(30);
+	@include breakpoint(medium) {
+		font-size: rem-calc(25);
+		padding: rem-calc(30);
+	}
+	padding: rem-calc(10);
 	margin-bottom: rem-calc(60);
 	background: lighten($yellow, 10%);
 	border: none;
-	font-size: rem-calc(20);
 	// line-height: 2;
+	em {
+		font-size: 130%;
+		font-weight: 900;
+		text-transform: uppercase;
+		color: $green;
+		font-style: normal;
+		padding-right: 10px;
+	}
 	strong {
-		color: $blue;
+		// color: $purple;
 	}
 	ul {
 		list-style: none;
 	}
 	li {
-		margin-bottom: 10px;
+		margin-bottom: 15px;
+	}
+}
+
+
+
+.closing {
+	font-style: rem-calc(20);
+}
+
+/* ABOUT the show */
+
+.mc-portraits {
+	img {
+		padding: 20px 20px;
 	}
 }
