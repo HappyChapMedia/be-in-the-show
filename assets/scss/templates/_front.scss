@@ -1,4 +1,10 @@
 // Page header
+
+#small-hero-image {
+    height: 275px;
+    background-position: left;
+}
+
 #front-hero {
 
 	padding: 0;
@@ -8,7 +14,7 @@
 		background-size: cover;
 		background-position: bottom right;
 		// padding: rem-calc(30%) rem-calc(10%);
-		height: 500px;
+		height: 600px;
 		position: relative;
 		text-align: left;
 	}

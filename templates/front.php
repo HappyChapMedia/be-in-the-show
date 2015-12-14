@@ -10,6 +10,9 @@ get_header(); ?>
 		$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );
 		$image = $image[0];
 		?>
+	<div id="small-hero-image" class="show-for-small-only" style="background-image: url('<?php echo $image ?>')">
+		
+	</div>
 
 	<header id="front-hero" role="banner" style="background-image: url('<?php echo $image ?>')">
 		<div class="marketing">
@@ -19,7 +22,6 @@ get_header(); ?>
 				<p class="cta"><a role="button" class="large button" href="<?php echo esc_url( home_url( '/about-the-show' ) ); ?>">See Show Details!</a></p>
 			</div>
 		</div>
-
 	</header>
 	
 	<?php endif; ?>

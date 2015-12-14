@@ -1,7 +1,20 @@
+.off-canvas-wrapper {
+  background: $blue;
+}
+
 .off-canvas {
   ul#menu-main-menu {
     height: 100vh;
     padding: 1rem;
+  }
+  ul li {
+    padding: rem-calc(15) 0;
+    border-bottom: solid 1px $yellow;
+      a {
+      color: $yellow;
+      font-size: rem-calc(22);
+      font-weight: 700;
+    }
   }
 }
 
