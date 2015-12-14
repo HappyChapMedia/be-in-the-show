@@ -33,9 +33,11 @@
 		<link rel="mask-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="msapplication-TileColor" content="#da532c">
 		<meta name="msapplication-TileImage" content="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/icons/mstile-144x144.png">
-		<meta name="theme-color" content="#ff0000">
+		<meta name="theme-color" content="#F6ED54">
+		<!-- Fonts -->
 		<script src="https://use.typekit.net/qxi7bgy.js"></script>
 		<script>try{Typekit.load({ async: true });}catch(e){}</script>
+		<!-- Head -->
 		<?php wp_head(); ?>
 	</head>
 	<body <?php body_class(); ?>>
