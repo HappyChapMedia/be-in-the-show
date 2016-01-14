@@ -11,7 +11,7 @@ var colors      = require('colors');
 
 // Enter URL of your local server here
 // Example: 'http://localwebsite.dev'
-var URL = 'http://127.0.0.1/be-in-the-show/';
+var URL = 'http://127.0.0.1/beintheshow/';
 
 // Check for --production flag
 var isProduction = !!(argv.production);

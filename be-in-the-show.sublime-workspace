@@ -4,405 +4,109 @@
 		"selected_items":
 		[
 			[
-				"rem",
-				"rem	rem-calc"
+				"dis",
+				"display"
 			],
 			[
-				"get_te",
-				"get_template_directory	(theme-support.php)"
-			],
-			[
-				"bac",
-				"background-repeat"
-			],
-			[
-				"theme_",
-				"theme_root_uri"
-			],
-			[
-				"background",
-				"background-color"
-			],
-			[
-				"ba",
-				"background-color"
-			],
-			[
-				"back",
-				"background"
-			],
-			[
-				"backg",
-				"background-color"
-			],
-			[
-				"commu",
-				"community-events-bar"
-			],
-			[
-				"color",
-				"background-color"
-			],
-			[
-				"community",
-				"community-socials"
-			],
-			[
-				"get_style",
-				"get_stylesheet_directory_uri"
-			],
-			[
-				"social",
-				"social-feed-item"
-			],
-			[
-				"get_styl",
-				"get_stylesheet_directory_uri"
-			],
-			[
-				"ligh",
-				"lighten"
-			],
-			[
-				"sub-nav",
-				"sub-nav-container"
-			],
-			[
-				"no-",
-				"no-repeat"
-			],
-			[
-				"background-",
-				"background-repeat"
-			],
-			[
-				"font-s",
-				"font-size"
-			],
-			[
-				"margin",
-				"margin-bottom"
-			],
-			[
-				"get_post_thumbnail_",
-				"begin_fetch_post_thumbnail_html"
-			],
-			[
-				"backgroun",
-				"background-color"
-			],
-			[
-				"in",
-				"inline-block"
-			],
-			[
-				"shor",
-				"add_shortcode"
-			],
-			[
-				"font",
-				"font-size"
-			],
-			[
-				"padding-",
-				"padding-left"
-			],
-			[
-				"cowork-space-intro",
-				"cowork-space-intro-img"
-			],
-			[
-				"get_template_",
-				"get_template_directory_uri"
-			],
-			[
-				"gettem",
-				"get_template_directory"
-			],
-			[
-				"temp",
-				"template_directory"
-			],
-			[
-				"padding",
-				"padding-left"
-			],
-			[
-				"sub-na",
-				"sub-nav-container"
-			],
-			[
-				"backgrou",
-				"background"
-			],
-			[
-				"page",
-				"is_page"
-			],
-			[
-				"font-",
-				"font-family"
-			],
-			[
-				"footer-conta",
-				"footer-contain"
-			],
-			[
-				"padd",
-				"padding"
-			],
-			[
-				"cowork",
-				"cowork-color"
-			],
-			[
-				"cow",
-				"cowork"
-			],
-			[
-				"marg",
-				"margin"
-			],
-			[
-				"dos",
-				"do_shortcode"
-			],
-			[
-				"do",
-				"do_shortcode"
-			],
-			[
-				"r",
-				"rgba"
-			],
-			[
-				"communi",
-				"community-color"
-			],
-			[
-				"lig",
-				"lighten"
-			],
-			[
-				"margin-",
-				"margin-bottom"
-			],
-			[
-				"ab",
-				"absolute"
-			],
-			[
-				"collab",
-				"collab-color"
-			],
-			[
-				"bodyf",
-				"body-font-family"
-			],
-			[
-				"bod",
-				"body-font-family"
-			],
-			[
-				"pos",
-				"position"
-			],
-			[
-				"mar",
-				"margin"
-			],
-			[
-				"body",
-				"body-font-family"
-			],
-			[
-				"coll",
-				"collab-color"
-			],
-			[
-				"auto",
-				"autoplaySpeed"
-			],
-			[
-				"fontst",
-				"font-style"
-			],
-			[
-				"he",
-				"height"
-			],
-			[
-				"font-st",
-				"font-style"
-			],
-			[
-				"header",
-				"header-font-family"
-			],
-			[
-				"le",
+				"letter",
 				"letter-spacing"
 			],
 			[
-				"op",
-				"opacity"
+				"pa",
+				"padding"
 			],
 			[
-				"text",
-				"text-align"
+				"hover",
+				"hoverDelay	(offCanvas.js)"
 			],
 			[
-				"alert",
-				"alert-color"
+				"border",
+				"border-bottom"
 			],
 			[
-				"aler",
-				"alert-color"
+				"40px",
+				"40px"
 			],
 			[
-				"wid",
-				"width"
+				"background",
+				"background-size"
 			],
 			[
-				"va",
-				"vapor"
-			],
-			[
-				"al",
-				"vertical-align"
+				"rel",
+				"relative"
 			],
 			[
 				"po",
 				"position"
 			],
 			[
-				"Mar",
-				"margin-right"
+				"text",
+				"text-align"
 			],
 			[
-				"import",
-				"important"
+				"w",
+				"width"
 			],
 			[
-				"pr",
-				"pre-line"
+				"tex",
+				"text-align"
 			],
 			[
-				"im",
-				"important"
+				"padding",
+				"padding-bottom"
 			],
 			[
-				"pre",
-				"pre-line"
+				"rgb",
+				"rgba()"
 			],
 			[
-				"mAR",
-				"margin-top"
+				"le",
+				"letter-spacing"
 			],
 			[
-				"re",
-				"repeat-x"
+				"font",
+				"font-size"
 			],
 			[
-				"f",
-				"font-style"
-			],
-			[
-				"fotn",
+				"font-",
 				"font-weight"
+			],
+			[
+				"font-s",
+				"font-size"
+			],
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"mo",
+				"moz-border-radius"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"white",
+				"white-space"
 			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "header.php",
-			"settings":
-			{
-				"buffer_size": 3033,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "templates/front.php",
-			"settings":
-			{
-				"buffer_size": 2480,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"contents": "<p class=\"intro\">Intro paragraph talking about performing in the show will go here.</p>\n\n<h2>Auditions</h2>\n\nAuditions will be held...\n\n<h2>Sign-up</h2>\n\n<iframe src=\"https://docs.google.com/forms/d/1dGJv3XV8wnRVo2ESaBOJftvio73AaQRSMQ2Uuu3s2Hs/viewform?embedded=true\" width=\"100%\" height=\"700\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Loading...</iframe>\n\n<h2>Performing Info</h2>\n\n<h3>Time allotment for performers:</h3>\n\n<table>\n	<thead>\n		<tr>\n			<th>Dancers</th>\n			<th>Singers</th>\n			<th>Cheer w/ Stunting</th>\n			<th>Musicians</th>\n			<th>Other - actors/improv/pets/etc.</th>\n		</tr>\n	</thead>\n	<tbody>\n		<tr>\n			<td>1-10 members-max 2 min.</td>\n			<td>1-10 members-max 3 min.</td>\n			<td>Max 4 min.</td>\n			<td>1-3 members-max 4 min.</td>\n			<td>3-5 min. depending on act</td>\n		</tr>\n		<tr>\n			<td>11-20 members-max 3 min.</td>\n			<td>11-20 members-max 4 min.</td>\n			<td></td>\n			<td>3-10  members-max 5 min.</td>\n			<td></td>\n		</tr>\n		<tr>\n			<td></td>\n			<td>20+ members-max 5 min.</td>\n			<td></td>\n			<td>10+ members-max 6 min.</td>\n			<td></td>\n		</tr>\n	</tbody>\n</table>\n\n<p>Thank you for your participation this is going to be an incredible community celebration!</p>",
-			"file": "pages/perform.html",
-			"file_size": 1151,
-			"file_write_time": 130944473555710586,
-			"settings":
-			{
-				"buffer_size": 1193,
-				"line_ending": "Windows",
-				"name": "<h3>Time allotment for performers:</h3>"
-			}
-		},
-		{
-			"file": "assets/scss/modules/_content.scss",
-			"settings":
-			{
-				"buffer_size": 534,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/scss/global/_settings.scss",
-			"settings":
-			{
-				"buffer_size": 13593,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "footer.php",
-			"settings":
-			{
-				"buffer_size": 1873,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/scss/templates/_front.scss",
-			"settings":
-			{
-				"buffer_size": 2793,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/scss/modules/_footer.scss",
-			"settings":
-			{
-				"buffer_size": 890,
-				"line_ending": "Windows"
-			}
-		}
 	],
-	"build_system": "Packages/Python/Python.sublime-build",
+	"build_system": "",
 	"build_system_choices":
 	[
-		[
-			[
-				[
-					"Packages/Python/Python.sublime-build",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					"Syntax Check"
-				]
-			],
-			[
-				"Packages/Python/Python.sublime-build",
-				""
-			]
-		]
 	],
 	"build_varint": "",
 	"command_palette":
@@ -413,57 +117,21 @@
 		[
 			[
 				"Package Control: ",
-				"Package Control: Install Package"
-			],
-			[
-				"install",
-				"Package Control: Install Package"
-			],
-			[
-				"remove",
 				"Package Control: Remove Package"
 			],
 			[
-				"add rep",
-				"Package Control: Add Repository"
-			],
-			[
-				"sass",
-				"Set Syntax: Sass"
-			],
-			[
-				"ins",
+				"Package Control: insta",
 				"Package Control: Install Package"
-			],
-			[
-				"",
-				"About"
-			],
-			[
-				"package",
-				"Package Control: Install Package"
-			],
-			[
-				"pack",
-				"Package Control: List Packages"
-			],
-			[
-				"r",
-				"CSSLint: Run CSSLint"
-			],
-			[
-				"run",
-				"CSSLint: Run CSSLint"
 			]
 		],
-		"width": 424.0
+		"width": 512.0
 	},
 	"console":
 	{
-		"height": 162.0,
+		"height": 126.0,
 		"history":
 		[
-			"package control"
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -477,163 +145,107 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/javascript",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/javascript/custom",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/javascript/vendor",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/components",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/global",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/modules",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/templates",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/library",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/parts",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/templates"
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show"
 	],
 	"file_history":
 	[
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/footer.php",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/modules/_content.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/modules/_footer.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/modules/_topbar.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/global/_custom_settings.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/components/_buttons.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/foundation.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/components/_featured-image.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/components/_off-canvas.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/global/_settings.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/parts/featured-image.php",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/templates/_page-default.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/assets/scss/components/_top-bar.scss",
-		"/D/Ampps/www/be-in-the-show/wp-content/themes/be-in-the-show/gulpfile.js",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/assets/img/social-triangle.svg",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/js/custom/custom.js",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_footer.scss",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_nav.scss",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_posts.scss",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_page.scss",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_base.scss",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/sidebar.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/single.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/footer.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/parts/cowork-space-gallery.php",
-		"/D/Ampps/www/run-padden/wp-config.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/library/theme-support.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/library/enqueue-scripts.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/parts/community-news-members.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/pages/cowork.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/template-home.php",
-		"/D/Ampps/www/workspace/wp-config.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/header.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/template-community.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/style.css",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/parts/page-sub-nav-collaborate.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/parts/community-socials.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/pages/collab.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/functions.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/library/foundation.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/js/foundation.js",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/js/custom/slick.js",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/template-collab.php",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/js/custom/init.js",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/scss/config/_settings.scss",
-		"/C/Users/Casey/Downloads/sitemap.xml",
-		"/D/Ampps/www/workspace/wp-content/themes/workspace/parts/page-sub-nav-community.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/pages/collab.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/page-header.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/pages/cowork.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/page-sub-nav-cowork.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/header.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/footer.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/config/_settings.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_base.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_nav.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/custom.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_page.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/library/enqueue-scripts.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/init.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_footer.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/template-community.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/template-cowork.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/template-collab.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/library/theme-support.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/pages/collab",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/style.css",
-		"/C/Users/Casey/Desktop/wp-config.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/collab-intro-gallery.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/collab-intro-gallery",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/cowork-space-gallery.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/cowork-space-gallery",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/community-socials.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/community-news-members.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/template-home.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/off-canvas-menu.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/top-bar.php",
-		"/C/Users/Casey/Desktop/zap.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_mixins.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/plugins/social-media-aggregator/im-social-aggregator.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/plugins/social-media-aggregator/js/admin.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/plugins/social-media-aggregator/js/im-social-aggregator.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/plugins/social-media-aggregator/classes/Base.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/plugins/social-media-aggregator/classes/FacebookFeed.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/page-sub-nav-community.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_posts.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/foundation.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/library/interchange.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/functions.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/single.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/library/entry-meta.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/content.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/index.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/library/navigation.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/library/menu-walker.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/library/menu-desc-walker.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/jquery.imageScroll.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/vendor/jquery.js",
-		"/C/Users/Casey/Downloads/jquery-1.11.3.min.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/pages/coworking-form.html",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_footer.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/footer.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/templates/front.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_topbar.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/templates/_front.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/style.css",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/components/_buttons.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/header.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_nav.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/global/_settings.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/global/_fonts.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/global/_wp-overrides.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/foundation.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/pages/home.html",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/global/_colors.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/global/_typography.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/gulpfile.js",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/javascript/custom/offCanvas.js",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/library/menu-walkers.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/library/navigation.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/modules/_container.scss",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/functions.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/library/custom.php",
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/assets/scss/components/_featured-image.scss",
 		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
-		"/C/Users/Casey/Desktop/page.html",
-		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/stick-em.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/library/foundation.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/wp-config.php",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/slick.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/js/custom/scroll.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/assets/img/arrow-down.svg",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/page-sub-nav-collaborate.php",
-		"/C/Users/Casey/Desktop/whatcom-wildlife/style.css",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/css/lightbox.css",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/parts/page-sub-nav-collab.php",
-		"/C/Users/Casey/Desktop/page.php",
-		"/C/Users/Casey/Desktop/template-home.php",
-		"/C/Users/Casey/Desktop/index.php",
-		"/C/Users/Casey/AppData/Roaming/Sublime Text 3/Packages/User/media-queries.sublime-snippet",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/_normalize.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/.sass-cache/9e4973a3417785f92143eeca01269b0cd9f1ec44/_accordion.scssc",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/node-sass/test/fixtures/spec/spec/libsass-todo-tests/bourbon/lib/helpers/_deprecated-webkit-gradient.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/grunt-contrib-watch/node_modules/gaze/test/add_test.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/node-bourbon/assets/stylesheets/addons/_button.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/node_modules/node-sass/node_modules/meow/node_modules/minimist/test/default_bool.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/scss/site/_socialist.scss",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/pages/meeting-space.html",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/template-default.php",
-		"/C/Users/Casey/Desktop/slick.js",
-		"/C/Program Files (x86)/Ampps/www/workspace/wp-content/themes/workspace/bower_components/foundation/js/foundation/foundation.clearing.js"
+		"/D/Ampps/www/sterling/wp-content/themes/sterling/.gitignore",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/scss/site/_structure.scss",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/template-home-local.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/page.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/footer.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/header.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/template-home.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/page.php.bak.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/js/custom.js",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/library/theme-support.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/pages/sales-specials",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/template-sales-specials.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/parts/shop-sales-specials.php",
+		"/C/Users/Casey/Desktop/wp-config.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/functions.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/parts/natural-enquirer.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-content/themes/eat-beets/template-sales-specials-OLD.php",
+		"/D/Ampps/www/skagitfoodcoop/wp-config.php",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/style.css",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/css/all.css",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/licensing.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/js/main.js",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/header.php",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/framework/headers/header-v4.php",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/home.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/css/media.css",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/footer.php",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/faq.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/contact.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/aviation.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/about-newest.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/single.php",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/about.html",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/about-newest",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/pages/home-old.html",
+		"/D/Ampps/www/run-padden/wp-config.php",
+		"/D/Ampps/www/licensing-pros/wp-content/themes/licensing_pros/lp.sublime-project",
+		"/C/Users/caseyb/Desktop/header.php",
+		"/C/WORK/LOCAL/mafia_8_22_NEW/iwpserver/htdocs/wordpress/wp-content/themes/mafia/team_page.php",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/header.php",
+		"/C/Users/caseyb/Desktop/wp-config.php",
+		"/C/Users/caseyb/Desktop/installer.php",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/framework/custom_functions.php",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/footer.php",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/shortcodes.php",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/faqs.php",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/single.php",
+		"/C/Users/caseyb/Desktop/bytes/index.html",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/css/all.css",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/style.css",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/index.php",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/framework/headers/header-v4.php",
+		"/C/Users/caseyb/Desktop/default.php",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/admin/front-end/options.php",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/page.php",
+		"/C/WORK/CLIENTS/Lyndale/Website/Avada_Theme/Lisc_Pros/Lisc_Pros/shortcodes.php",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-content/themes/licensing_pros/functions.php",
+		"/C/WORK/LOCAL/mafia/iwpserver/htdocs/mafiaracing/wp-content/themes/mafia/header.php",
+		"/C/WORK/LOCAL/lp/iwpserver/htdocs/wordpress/wp-config.php",
+		"/C/WORK/LOCAL/hog/iwpserver/htdocs/wordpress/wp-content/themes/copper-hog/style.css"
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 46.0
 	},
 	"find_in_files":
 	{
 		"height": 90.0,
 		"where_history":
 		[
-			"D:\\Ampps\\www\\workspace\\wp-content\\themes\\workspace\\scss\\site",
-			"D:\\Ampps\\www\\workspace\\wp-content\\themes\\workspace\\library",
-			"C:\\Program Files (x86)\\Ampps\\www\\thedancestudio\\wp-content\\themes\\dancing-away"
+			"D:\\Ampps\\www\\skagitfoodcoop\\wp-content\\themes\\eat-beets",
+			"D:\\Ampps\\www\\licensing-pros\\wp-content\\themes\\licensing_pros"
 		]
 	},
 	"find_state":
@@ -641,134 +253,82 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"h4",
-			"<small>",
-			"<br>",
-			"h4",
-			"box-shadow",
-			"shadow",
-			"box",
-			"get",
-			"template",
-			"sidebar",
-			"post-thumbnails",
-			"slick-slide",
-			"cowork",
-			"slick",
-			"slick-slide",
-			"page-cowork",
+			"6",
+			"top",
+			"i",
 			"strong",
-			"thumbnails",
-			"<li class=\"bullet-item\">Items go here!</li>\n					<li class=\"bullet-item\">Items go here!</li>\n					<li class=\"bullet-item\">Items go here!</li>\n					<li class=\"bullet-item\">Items go here!</li>\n					<li class=\"bullet-item\">Items go here!</li>",
-			"ghost",
-			"svg",
-			"<!–",
-			"data-magellan-arrival=",
-			" data-magellan-arrival=",
-			"collab",
-			"parallax",
-			"php",
-			"cowork",
-			"space",
-			"community",
-			"social",
-			"active",
-			"@media",
-			"row",
-			"social",
-			"4px",
 			"4",
-			"darken($red, 20%)",
-			"off-can",
-			"off",
-			"contact",
-			"row",
-			"community-color",
-			"shortcode",
-			"bower_components",
-			"=\"intro\"",
-			"=\"person\"",
-			"=\"news-row\"",
-			"arrow",
-			"box",
-			"h4",
-			"Event",
-			"40",
-			"20",
-			"h3",
-			"classroom",
-			"class",
-			"slick-slide",
-			"slick-slide:hover",
-			"slick",
-			"row",
-			"$asset-img",
-			"cowork-space",
-			"tags",
-			"wp-post-image",
-			"th wp-post-image",
-			"$topbar-bg",
-			"32",
-			"html",
-			".active a",
-			"active",
-			"top-bar",
+			"broker-name\">",
+			"<img src=\"\" alt=\"logo\">",
+			"Buying",
+			"orbit",
+			"sales-specials",
+			"member-owner",
+			"home",
+			"go",
+			"Go to",
+			"go",
+			".",
+			"header-v4",
+			"font-weight: 100",
+			"two_third",
+			"cta",
+			"h2",
+			"10px",
+			"h5.toggle",
+			"main",
+			"v4",
+			"home",
+			"logo",
+			"Aviation Insurance Association",
+			"Here are some commonly asked questions answered by our insurance licensing professionals. Feel free to <strong><a title=\"Contact Us\" href=\"http://127.0.0.1/licensing-pros/contact/\">contact us </a></strong>with any additional questions you may have!Here are some commonly asked questions answered by our insurance licensing professionals. Feel free to <strong><a title=\"Contact Us\" href=\"http://127.0.0.1/licensing-pros/contact/\">contact us </a></strong>with any additional questions you may have!",
+			"h5.toggle",
+			"including",
+			"toggle",
+			"person",
+			"wordpress",
+			"image-extras",
+			"call",
+			"post-content h3",
+			"post-content",
+			"h2",
+			"page-title-conta",
+			"post-content h2",
+			".page-title h1",
+			"page-title",
+			"(151,176,76, 1)",
+			"rgba(151,176,76, 1);",
+			");",
+			"#97b04c",
+			"a0ce4e",
+			"hr",
+			"-webkit-margin",
+			"hr",
+			"column",
+			"2col",
+			"col",
+			"footer-area h3",
+			"footer",
+			"toggle",
 			"nav",
-			"top-bar",
-			"parall",
-			"parallax",
-			"- ",
-			"</span>",
-			"<span data-term=\"goog_",
-			"class=\"description\"",
-			"<div data-equalizer-watch=\"desc\">",
-			"Items go here!",
-			"\"..",
-			"$asset",
-			"h3",
-			"small-type",
-			"small-t",
-			"steel",
-			"patter",
-			"hide",
-			"me",
-			"sub-nav",
-			"sub-nav-cont",
-			"sub-nav-contianer",
-			"#",
-			"stick",
-			" *  ",
-			"  ",
-			"Open",
-			"<li class=\"ws-hours\">Monday &ndash; Friday /<strong> 9am &ndash; 6pm</strong></li>",
-			"medium-6",
-			"green",
-			"blue",
-			"yellow",
-			"mo.",
-			"3",
-			"ws-hours",
-			"10",
-			"price",
-			"hours",
-			"map",
-			"30",
-			"160",
-			"320deg",
-			"<i class=\"fi-rss\"></i>",
-			"<i class=\"fi-rss\">",
-			"h4",
-			"Fast",
-			"<span class=\"currency\">",
-			"$",
-			"hours",
-			"cost",
-			"pricing",
-			"pricing-table",
-			"about-in",
-			"caption",
-			"slick",
-			"styled-list"
+			"slide",
+			"slider",
+			"slide",
+			"holder",
+			"linked",
+			"cleints",
+			"comment-submit",
+			"toggle",
+			"tottle",
+			"toggle",
+			"h1",
+			"google",
+			"person",
+			"phone",
+			"title",
+			"transition",
+			"tagline",
+			"search"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -776,10 +336,9 @@
 		"regex": false,
 		"replace_history":
 		[
-			"merriweather",
-			"dance-class-details",
-			"rgba(237,86,75,1)",
-			"rgba(237,86,75,.8)"
+			"rgba(151,176,76, 1)",
+			"rgba(151,176,76, 1);",
+			"97b04c"
 		],
 		"reverse": false,
 		"show_context": true,
@@ -790,255 +349,14 @@
 	"groups":
 	[
 		{
-			"selected": 5,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "header.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3033,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2243,
-								2243
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/front.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2480,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2480,
-								2480
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "pages/perform.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1193,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								624,
-								624
-							]
-						],
-						"settings":
-						{
-							"auto_name": "<h3>Time allotment for performers:</h3>",
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "assets/scss/modules/_content.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 534,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								224,
-								224
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "assets/scss/global/_settings.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 13593,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1080,
-								1080
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 191.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "footer.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1873,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								940,
-								892
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 6,
-					"file": "assets/scss/templates/_front.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2793,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2433,
-								2433
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1492.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "assets/scss/modules/_footer.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 890,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								625,
-								625
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -1053,18 +371,11 @@
 				0,
 				1,
 				1
-			],
-			[
-				1,
-				0,
-				2,
-				1
 			]
 		],
 		"cols":
 		[
 			0.0,
-			0.649342891279,
 			1.0
 		],
 		"rows":
@@ -1073,28 +384,16 @@
 			1.0
 		]
 	},
-	"menu_visible": false,
-	"output.csslint_result_view":
-	{
-		"height": 25.0
-	},
-	"output.exec":
-	{
-		"height": 100.0
-	},
+	"menu_visible": true,
 	"output.find_results":
 	{
 		"height": 0.0
 	},
-	"output.sftp":
-	{
-		"height": 100.0
-	},
-	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"pinned_build_system": "",
 	"project": "be-in-the-show.sublime-project",
 	"replace":
 	{
-		"height": 62.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -1103,34 +402,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
-			[
-				"",
-				"scss\\foundation.scss"
-			]
 		],
 		"width": 0.0
 	},
 	"select_project":
 	{
-		"height": 625.0,
+		"height": 500.0,
 		"last_filter": "",
 		"selected_items":
 		[
 			[
 				"",
-				"D:\\Ampps\\www\\be-in-the-show\\wp-content\\themes\\be-in-the-show\\assets\\scss\\modules\\happychapco.sublime-project"
+				"D:\\Ampps\\www\\be-in-the-show\\wp-content\\themes\\be-in-the-show\\be-in-the-show.sublime-workspace"
 			]
 		],
-		"width": 475.0
+		"width": 620.0
 	},
 	"select_symbol":
 	{
-		"height": 490.0,
+		"height": 0.0,
 		"last_filter": "",
 		"selected_items":
 		[
 		],
-		"width": 747.0
+		"width": 0.0
 	},
 	"selected_group": 0,
 	"settings":
@@ -1140,7 +435,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 246.0,
+	"side_bar_width": 294.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
