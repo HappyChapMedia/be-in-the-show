@@ -23,13 +23,25 @@
 				<div class="footer-nav large-3 columns">
 					<?php wp_nav_menu( array('main' => 'main' )); ?>
 				</div>
-				<div class="tds large-2 columns">
-					<p>Presented by: <br> <a href="http://www.thedancestudio.net" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dance-studio-logo-horiz.png" alt="The Dance Studio"></a></p>
+				<div class="branding large-4 columns">
+					<div class="blue-skies">
+						<p>Proceeds benefiting: <br> <a href="http://www.blueskiesforchildren.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blue-skies-for-children.png" alt="Blue Skies for Children"></a></p>
+					</div>
+					<div class="tds">
+						<p>Presented by: <br> <a href="http://www.thedancestudio.net" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dance-studio-logo-horiz.png" alt="The Dance Studio"></a></p>
+					</div>
 				</div>
 				<?php do_action( 'foundationpress_after_footer' ); ?>
 			</footer>
-			<div class="footer-credits">
-				<p class="align-left">Photos via Flickr &ndash; <a href="https://www.flickr.com/photos/evarinaldiphotography/" target="_blank">Eva Rinaldi</a>, <a href="https://www.flickr.com/photos/walterpro/" target="_blank">Walter</a>, <a href="https://www.flickr.com/photos/jus10h/" target="_blank">Justin Higuchi</a> <span class="salt">&amp;</span> <a href="https://www.flickr.com/photos/familymwr/" target="_blank">U.S. Army</a></p>
+			<div class="footer-credits-contain">
+				<div class="footer-credits">
+					<div class="photo-credits medium-8 columns">
+						<p><i class="fa fa-camera"></i> Photos via Flickr &ndash; <a href="https://www.flickr.com/photos/evarinaldiphotography/" target="_blank">Eva Rinaldi</a>, <a href="https://www.flickr.com/photos/walterpro/" target="_blank">Walter</a>, <a href="https://www.flickr.com/photos/jus10h/" target="_blank">Justin Higuchi</a> <span class="salt">&amp;</span> <a href="https://www.flickr.com/photos/familymwr/" target="_blank">U.S. Army</a></p>
+					</div>
+					<div class="design-credits medium-4 columns">
+						<p>Design by: <a href="http://www.happychapmedia.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/happy-chap-logo.png" alt="Blue Skies for Children"></a></p>
+					</div>
+				</div>
 			</div>
 		</div>
 	

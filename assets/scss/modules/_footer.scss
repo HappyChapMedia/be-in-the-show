@@ -53,21 +53,50 @@
 			  font-size: 215%;
 			}
 		}
-		.tds {
-			padding-top: rem-calc(200);
+		.branding {
+			padding-top: rem-calc(100);
 			color: $white;
 			text-align: center;
 			text-transform: uppercase;
+			.tds {
+				padding-top: 30px;
+				img {
+					width: 165px;
+				}
+			}
 		}
 	}
-	.footer-credits {
-		padding: rem-calc(10) rem-calc(20) 0;
+	.footer-credits-contain {
 		background: $secondary-color;
-		text-align: center;
+	}
+	.footer-credits {
+		@include grid-row();
+		// padding: rem-calc(10) 0 rem-calc(20);
+		// text-align: center;
 		height: 100%;
+		p {
+			color: $medium-gray;
+		}
 		a {
 			color: $white;
-
+		}
+		.photo-credits {
+			padding-top: 40px;
+			position: relative;
+			bottom: 0;
+		}
+		.design-credits {
+			text-align: right;
+			img {
+				padding: 20px 0 0 15px;
+				width: 200px;
+			}
+		}
+		.fa-camera {
+			font-size: 125%;
+			position: relative;
+			bottom: -1px;
+			padding-right: 5px;
 		}
 	}
 }
