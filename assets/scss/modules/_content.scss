@@ -13,6 +13,10 @@
 	border-bottom: solid rem-calc(30) $green;
 }
 
+.main-content {
+	box-shadow: none;
+}
+
 .entry-content {
 	.intro {
 		font-size: 160%;

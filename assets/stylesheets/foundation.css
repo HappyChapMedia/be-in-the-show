@@ -6225,39 +6225,51 @@ table.hover tr:nth-of-type(even):hover {
   My custom styles:
   Add your scss files below to structure your project styles
 */
-.top-bar {
-  height: 6.25rem; }
-  .top-bar .top-bar-left .menu, .top-bar .top-bar-left .menu a:hover:not(.button) {
-    background-color: transparent; }
-  .top-bar .menu .home a {
-    margin: -5px 0 -0 -5px; }
-  .top-bar .menu a {
-    height: 45px;
-    line-height: 45px;
-    color: #e6e6e6;
-    padding-top: 0;
-    padding-bottom: 0;
-    font-weight: bold;
-    font-size: 0.8rem; }
-    .top-bar .menu a:hover:not(.button) {
-      color: #faf59d; }
-  .top-bar .menu > li:not(.home) {
-    padding: 3rem .25rem 0; }
-  .top-bar .menu > li:not(.home) > a {
-    color: #F6ED54;
-    font-weight: 600;
-    text-transform: uppercase; }
-    @media screen and (min-width: 64em) {
-      .top-bar .menu > li:not(.home) > a {
-        font-size: 1.5625rem; } }
-  .top-bar .dropdown.menu .submenu {
-    background-color: #121212;
-    color: #e6e6e6;
-    border: 0; }
-  .top-bar .dropdown.menu .has-submenu.is-down-arrow a {
-    padding-right: 1rem; }
-  .top-bar .dropdown.menu .has-submenu.is-down-arrow > a::after {
-    border: 0; }
+@media screen and (min-width: 46.875em) {
+  .top-bar {
+    height: 6.25rem; } }
+
+.top-bar .top-bar-left .menu, .top-bar .top-bar-left .menu a:hover:not(.button) {
+  background-color: transparent; }
+
+.top-bar .menu .home a {
+  margin: -5px 0 -0 -5px; }
+
+.top-bar .menu a {
+  height: 45px;
+  line-height: 45px;
+  color: #e6e6e6;
+  padding-top: 0;
+  padding-bottom: 0;
+  font-weight: bold;
+  font-size: 0.8rem; }
+  .top-bar .menu a:hover:not(.button) {
+    color: #faf59d; }
+
+.top-bar .menu > li:not(.home) {
+  padding: 3rem .25rem 0; }
+
+.top-bar .menu > li:not(.home) > a {
+  color: #F6ED54;
+  font-weight: 600;
+  text-transform: uppercase; }
+  @media screen and (min-width: 64em) {
+    .top-bar .menu > li:not(.home) > a {
+      font-size: 1.5625rem; } }
+
+.top-bar .logo {
+  padding: 0.625rem; }
+
+.top-bar .dropdown.menu .submenu {
+  background-color: #121212;
+  color: #e6e6e6;
+  border: 0; }
+
+.top-bar .dropdown.menu .has-submenu.is-down-arrow a {
+  padding-right: 1rem; }
+
+.top-bar .dropdown.menu .has-submenu.is-down-arrow > a::after {
+  border: 0; }
 
 .top-bar ul {
   background: transparent; }
@@ -6397,6 +6409,9 @@ a span.screen-reader-text {
 
 #featured-hero {
   border-bottom: solid 1.875rem #21b685; }
+
+.main-content {
+  box-shadow: none; }
 
 .entry-content .intro {
   font-size: 160%; }

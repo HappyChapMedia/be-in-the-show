@@ -43,7 +43,7 @@
 	<body <?php body_class(); ?>>
 	<?php do_action( 'foundationpress_after_body' ); ?>
 
-	<?php if ( get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
+	<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>
 	<div class="off-canvas-wrapper">
 		<div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 		<?php get_template_part( 'parts/mobile-off-canvas' ); ?>
@@ -51,7 +51,7 @@
 
 	<?php do_action( 'foundationpress_layout_start' ); ?>
 
-	<header id="masthead" class="site-header" role="banner">
+	<header id="masthead" class="site-header " role="banner">
 		<div class="title-bar" data-responsive-toggle="site-navigation">
 			<button class="menu-icon" type="button" data-toggle="offCanvas"></button>
 			<div class="title-bar-title">
@@ -59,15 +59,13 @@
 			</div>
 		</div>
 
-		<nav id="site-navigation" class="main-navigation top-bar" role="navigation">
-			<div class="top-bar-left show-for-medium">
-				<ul class="logo">
-					<li>
-						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/be-in-the-show-logo-masthead.png" alt="Be in the Show"></a>
-					</li>
+		<nav id="site-navigation" class="main-navigation top-bar show-for-medium" role="navigation">
+			<div class="top-bar-left">
+				<ul class="menu">
+					<li class="home"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/be-in-the-show-logo-masthead.png" alt="Be in the Show"></a></li>
 				</ul>
 			</div>
-			<div class="top-bar-right">
+			<div class="top-bar-right show-for-medium">
 				<?php foundationpress_top_bar_r(); ?>
 
 				<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'topbar' ) : ?>
