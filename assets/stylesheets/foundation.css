@@ -6592,8 +6592,9 @@ a span.screen-reader-text {
       #front-hero .subheader {
         font-size: 2.1875rem; } }
 
-.home section header {
-  padding: 6.25rem 3.125rem; }
+@media screen and (min-width: 46.875em) {
+  .home section header {
+    padding: 6.25rem 3.125rem; } }
 
 .section-intro {
   text-align: center;
@@ -6633,6 +6634,14 @@ a span.screen-reader-text {
   color: #FFF; }
   .home .intro .section-intro h2 {
     color: #F6ED54; }
+    @media screen and (min-width: 64em) {
+      .home .intro .section-intro h2 {
+        font-size: 325%; } }
+  .home .intro .section-intro .mbt-image p {
+    padding: 0 0 2.5rem;
+    margin: 0 -15px;
+    width: 110%;
+    text-align: center; }
 
 .section-divider {
   max-width: 75rem;
@@ -6663,6 +6672,30 @@ a span.screen-reader-text {
     clear: both; }
   .perform .section-intro h2 {
     color: #00a3c7; }
+
+.share .share-intro {
+  text-align: center; }
+
+.share ul.share-logos {
+  list-style: none; }
+  .share ul.share-logos li {
+    display: inline-block;
+    padding: 0.625rem 1.25rem;
+    text-align: center; }
+  .share ul.share-logos .logo-whats-up {
+    width: 275px; }
+  .share ul.share-logos .logo-makeshift {
+    width: 200px; }
+  .share ul.share-logos .logo-bellingham-dental {
+    width: 300px; }
+    .share ul.share-logos .logo-bellingham-dental img {
+      padding-top: 10px; }
+  .share ul.share-logos .logo-back-east-bbq {
+    width: 175px; }
+  .share ul.share-logos .logo-wwu-cfpa {
+    width: 300px; }
+  .share ul.share-logos .logo-dh-home-inspection {
+    width: 175px; }
 
 #kitchen-sink {
   max-width: 75rem;

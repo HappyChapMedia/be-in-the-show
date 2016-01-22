@@ -123,7 +123,9 @@
 }
 
 .home section header {
-	padding: rem-calc(100) rem-calc(50);
+	@include breakpoint(medium){
+		padding: rem-calc(100) rem-calc(50);
+	}
 }
 
 .section-intro {
@@ -170,8 +172,18 @@
 	.section-intro {
 		h2 {
 			color: $yellow;
+			@include breakpoint(large){
+				font-size: 325%;
+			}
 		}
-
+		.mbt-image p {
+			@include breakpoint(small){
+				padding: 0 0 rem-calc(40);
+				margin: 0 -15px;
+				width: 110%;
+				text-align: center;
+			}
+		}
 	}
 }
 
@@ -186,7 +198,7 @@
 }
 
 
-// Benefits
+// Perform
 .perform {
 	@include grid-row();
 	text-align: center;
@@ -195,5 +207,39 @@
 			color: $blue;
 		}
 	}
+}
 
+.share {
+	.share-intro {
+		text-align: center;
+	}
+	ul.share-logos {
+		list-style: none;
+		li {
+			display: inline-block;
+			padding: rem-calc(10) rem-calc(20);
+			text-align: center;
+		}
+		.logo-whats-up {
+			width: 275px;
+		}
+		.logo-makeshift {
+			width: 200px;
+		}
+		.logo-bellingham-dental {
+			width: 300px;
+			img {
+				padding-top: 10px;
+			}
+		}
+		.logo-back-east-bbq {
+			width: 175px;
+		}
+		.logo-wwu-cfpa {
+			width: 300px;
+		}
+		.logo-dh-home-inspection {
+			width: 175px;
+		}
+	}
 }

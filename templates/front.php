@@ -29,18 +29,62 @@ get_header(); ?>
 
 	<section class="intro" role="main">
 		<header class="section-intro">
-			<h2>One stage, one community, one opportunity to see great Bellingham talent all in one place!</h2>
-			<p><strong>BE in the Show</strong> is a celebration of the performing arts in Bellingham. Local <em>dancers</em>, <em>singers</em>, <em>musicians</em>, <em>actors</em> and more will grace the beautiful <strong>Mount Baker Theatre</strong> main stage for a night of entertainment featuring a variety of talent from amateurs to professionals. <strong>BE</strong> a part of a new and fun tradition for Bellingham during our greyer months and add a bit of brightness with <strong>BE in the Show</strong>!</p>
-			<p class="cta"><a href="<?php echo esc_url( home_url( '/about-the-show' ) ); ?>" class="button large">Learn More</a> or <a href="http://www.mountbakertheatre.com/shows/be-in-the-show/" class="button large">Get Tickets!</a></p>
+			<div class="mbt-image large-6 medium-12 large-push-6 columns">
+				<p>
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/MBT-main-stage-vert-text.jpg" alt="Mount Baker Theatre Stage">
+				</p>
+			</div>
+			<div class="large-6 medium-12 large-pull-6 columns">
+				<h2>One stage, one community, one opportunity to see great Bellingham talent all in one place!</h2>
+				<p><strong>BE in the Show</strong> is a celebration of the performing arts in Bellingham. Local <em>dancers</em>, <em>singers</em>, <em>musicians</em>, <em>actors</em> and more will grace the beautiful <strong>Mount Baker Theatre</strong> main stage for a night of entertainment featuring a variety of talent from amateurs to professionals. <strong>BE</strong> a part of a new and fun tradition for Bellingham during our greyer months and add a bit of brightness with <strong>BE in the Show</strong>!</p>
+				<p class="cta"><a href="<?php echo esc_url( home_url( '/about-the-show' ) ); ?>" class="button large">Learn More</a> or <a href="http://www.mountbakertheatre.com/shows/be-in-the-show/" class="button large">Get Tickets!</a></p>
+			</div>
 		</header>
 	</section>
 
 
 	<section class="perform">
-		<header class="section-intro">
+		<header class="perform-intro">
 			<h2>Perform in the Show!</h2>
 			<p>Now is your chance to shine! Perform under the lights on the big stage at the Mount Baker Theatre! Singers, dancers, magicians, actors, contortionists, acrobats, and performers of all types are encouraged to take part in this exciting production and <strong>BE in the Show</strong></p>
 			<p class="cta"><a href="<?php echo esc_url( home_url( '/perform' ) ); ?>" class="button large">Learn more about performing</a></p>
+		</header>
+
+	</section>
+
+	<section class="share">
+		<header class="share-intro">
+			<h2>Thanks for sharing some love!</h2>
+			<p>Thanks to the following folks for helping spread the word on Facebook! <a href="https://www.facebook.com/events/512174485622431/" target="_blank">Share our event </a>on your group/business/etc FB page and we'll toss your logo below! Hooray Bellingham!</p>
+			<ul class="share-logos">
+				<li class="share-logo logo-bellingham-dental">
+					<p><a href="http://bellinghamdentalgroup.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/bellingham-dental-group.png" alt="Bellingham Dental Group"></a></p>
+				</li>
+				<li class="share-logo logo-whats-up">
+					<p><a href="http://www.whatsup-magazine.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/whats-up-logo.png" alt="What's Up! Magazine"></a></p>
+				</li>
+				<li class="share-logo logo-makeshift">
+					<p><a href="http://makeshiftproject.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/make-shift-logo.png" alt="Makeshift Art Space"></a></p>
+				</li>
+				<li class="share-logo logo-casa-que-pasa">
+					<p><a href="http://www.casaquepasarocks.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/casa-que-pasa-logo.png" alt="Casa Que Pasa"></a></p>
+				</li>
+				<li class="share-logo logo-the-racket">
+					<p><a href="https://www.facebook.com/theracketbham/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/the-racket-logo.png" alt="The Racket Bar and Pinball Lounge"></a></p>							
+				</li>
+				<li class="share-logo logo-the-shakedown">
+					<p><a href="http://www.shakedownbellingham.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/shakedown-logo.png" alt="The Shakedown"></a></p>
+				</li>
+				<li class="share-logo logo-back-east-bbq">
+					<p><a href="http://www.bellinghambbq.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/back-east-bbq-logo.png" alt="Back East BBQ Bellingham"></a></p>
+				</li>
+				<li class="share-logo logo-wwu-cfpa">
+					<p><a href="https://www.facebook.com/wwucfpa/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/WWUCFPAlogo.png" alt="WWU College of Fine and Performing Arts"></a></p>
+				</li>
+				<li class="share-logo logo-dh-home-inspection">
+					<p><a href="http://www.dhhomeinspection.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dh-home-inspection-logo.png" alt="Dan Hicks Home Inspection Bellingham"></a></p>
+				</li>
+			</ul>
 		</header>
 
 	</section>
