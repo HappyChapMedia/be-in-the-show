@@ -6700,6 +6700,10 @@ a span.screen-reader-text {
     width: 300px; }
   .share ul.share-logos .logo-dh-home-inspection {
     width: 175px; }
+  .share ul.share-logos .logo-workspace {
+    width: 225px;
+    position: relative;
+    bottom: 15px; }
 
 #kitchen-sink {
   max-width: 75rem;

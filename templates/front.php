@@ -84,6 +84,21 @@ get_header(); ?>
 				<li class="share-logo logo-dh-home-inspection">
 					<p><a href="http://www.dhhomeinspection.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dh-home-inspection-logo.png" alt="Dan Hicks Home Inspection Bellingham"></a></p>
 				</li>
+				<li class="share-logo logo-boundary-bay">
+					<p><a href="http://www.bbaybrewery.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/boundary-bay-brewing-logo.png" alt="Boundary Bay Brewing"></a></p>
+				</li>
+				<li class="share-logo logo-streat-food">
+					<p><a href="http://www.streatfood.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/streat-food-logo.png" alt="Streat Food"></a></p>
+				</li>
+				<li class="share-logo logo-aslan">
+					<p><a href="http://www.aslanbrewing.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aslan-brewing-logo.png" alt="Aslan Brewing"></a></p>
+				</li>
+				<li class="share-logo logo-workspace">
+					<p><a href="http://www.theworkspace.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/workspace-logo.png" alt="The Workspace Coworking Bellingham"></a></p>
+				</li>
+				<li class="share-logo logo-avenue-bread">
+					<p><a href="http://www.avenuebread.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/avenue-bread-logo.png" alt="Avenue Bread"></a></p>
+				</li>
 			</ul>
 		</header>
 

@@ -108,13 +108,34 @@
 	"buffers":
 	[
 		{
-			"contents": "<?php\n/*\nTemplate Name: Front\n*/\nget_header(); ?>\n\n<?php\n	// If a feature image is set, get the id, so it can be injected as a css background property\n	if ( has_post_thumbnail( $post->ID ) ) :\n		$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'single-post-thumbnail' );\n		$image = $image[0];\n		?>\n	<div id=\"small-hero-image\" class=\"show-for-small-only\" style=\"background-image: url('<?php echo $image ?>')\">\n		\n	</div>\n\n	<header id=\"front-hero\" role=\"banner\" style=\"background-image: url('<?php echo $image ?>')\">\n		<div class=\"marketing\">\n			<div class=\"tagline\">\n				<h1><small>A community <br></small><strong>talent show</strong> <br><small class=\"salt\">&amp;</small> <strong class=\"dance-showcase\">dance showcase</strong></h1>\n				<p class=\"subheader\">Friday, <strong>Jan. 29th</strong> @ <strong>The Mount Baker Theatre</strong> </p>\n				<p class=\"cta\"><a role=\"button\" class=\"large button\" href=\"<?php echo esc_url( home_url( '/about-the-show' ) ); ?>\">See Show Details!</a></p>\n			</div>\n		</div>\n	</header>\n	\n	<?php endif; ?>\n\n\n	<section class=\"intro\" role=\"main\">\n		<header class=\"section-intro\">\n			<div class=\"large-8 columns\">\n				<h2>One stage, one community, one opportunity to see great Bellingham talent all in one place!</h2>\n				<p><strong>BE in the Show</strong> is a celebration of the performing arts in Bellingham. Local <em>dancers</em>, <em>singers</em>, <em>musicians</em>, <em>actors</em> and more will grace the beautiful <strong>Mount Baker Theatre</strong> main stage for a night of entertainment featuring a variety of talent from amateurs to professionals. <strong>BE</strong> a part of a new and fun tradition for Bellingham during our greyer months and add a bit of brightness with <strong>BE in the Show</strong>!</p>\n				<p class=\"cta\"><a href=\"<?php echo esc_url( home_url( '/about-the-show' ) ); ?>\" class=\"button large\">Learn More</a> or <a href=\"http://www.mountbakertheatre.com/shows/be-in-the-show/\" class=\"button large\">Get Tickets!</a></p>\n			</div>\n			<div class=\"large-4 columns\">\n				<img src=\"<?php echo stylesheet_directory() ?>\" alt=\"\">\n			</div>\n		</header>\n	</section>\n\n\n	<section class=\"perform\">\n		<header class=\"section-intro\">\n			<h2>Perform in the Show!</h2>\n			<p>Now is your chance to shine! Perform under the lights on the big stage at the Mount Baker Theatre! Singers, dancers, magicians, actors, contortionists, acrobats, and performers of all types are encouraged to take part in this exciting production and <strong>BE in the Show</strong></p>\n			<p class=\"cta\"><a href=\"<?php echo esc_url( home_url( '/perform' ) ); ?>\" class=\"button large\">Learn more about performing</a></p>\n		</header>\n\n	</section>\n\n	<section class=\"perform\">\n		<header class=\"section-intro\">\n			<h2>Thanks for sharing some love!</h2>\n\n			<p>Now is your chance to shine! Perform under the lights on the big stage at the Mount Baker Theatre! Singers, dancers, magicians, actors, contortionists, acrobats, and performers of all types are encouraged to take part in this exciting production and <strong>BE in the Show</strong></p>\n			<p class=\"cta\"><a href=\"<?php echo esc_url( home_url( '/perform' ) ); ?>\" class=\"button large\">Learn more about performing</a></p>\n		</header>\n\n	</section>\n\n\n\n<?php get_footer(); ?>\n",
 			"file": "templates/front.php",
-			"file_size": 3232,
-			"file_write_time": 130979004533115024,
 			"settings":
 			{
-				"buffer_size": 3273,
+				"buffer_size": 5609,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "footer.php",
+			"settings":
+			{
+				"buffer_size": 3755,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/scss/modules/_footer.scss",
+			"settings":
+			{
+				"buffer_size": 1688,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 1477,
 				"line_ending": "Windows"
 			}
 		}
@@ -166,12 +187,14 @@
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/components",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/global",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/modules",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/templates",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/library",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/parts",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/templates"
 	],
 	"file_history":
 	[
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/templates/_front.scss",
 		"/C/Users/Casey/Google Drive/Work/HappyChap Files/_CLIENTS/Sterling Real Estate Group/Website/PSDs/pre-footer",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/modules/_topbar.scss",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/modules/_footer.scss",
@@ -289,6 +312,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"href=\"\"",
+			"src=\"",
+			"<a",
 			"main-content",
 			"6",
 			"top",
@@ -386,7 +412,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -395,15 +421,45 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3273,
+						"buffer_size": 5609,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1092,
-								1092
+								3498,
+								3232
+							]
+						],
+						"settings":
+						{
+							"dfw_side_bar_vis": true,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 675.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3755,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								720,
+								721
 							]
 						],
 						"settings":
@@ -411,18 +467,78 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 84.0,
-						"translation.y": 225.0,
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
 		},
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"file": "assets/scss/modules/_footer.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1688,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1125,
+								1125
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 360.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								243,
+								243
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -454,7 +570,7 @@
 		"cols":
 		[
 			0.0,
-			0.850534602749,
+			0.714285714286,
 			1.0
 		],
 		"rows":
@@ -492,7 +608,7 @@
 		[
 			[
 				"",
-				"D:\\Ampps\\www\\skagitfoodcoop\\wp-content\\themes\\eat-beets\\skagit-food-coop.sublime-project"
+				"D:\\Ampps\\www\\sterling\\wp-content\\themes\\sterling\\sterling.sublime-project"
 			]
 		],
 		"width": 620.0
