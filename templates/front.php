@@ -93,6 +93,15 @@ get_header(); ?>
 				<li class="share-logo logo-aslan">
 					<p><a href="http://www.aslanbrewing.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/aslan-brewing-logo.png" alt="Aslan Brewing"></a></p>
 				</li>
+				<li class="share-logo logo-comics-place">
+					<p><a href="http://www.thecomicsplace.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/comics-place-logo.png" alt="The Comics Place"></a></p>
+				</li>
+				<li class="share-logo logo-sterling">
+					<p><a href="http://www.sterlingrealestate.biz/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sterling-real-estate-logo.png" alt="Sterling Real Estate"></a></p>
+				</li>
+				<li class="share-logo logo-carne">
+					<p><a href="http://carnebellingham.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/carne-logo.png" alt="Carne Butchery"></a></p>
+				</li>
 				<li class="share-logo logo-workspace">
 					<p><a href="http://www.theworkspace.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/workspace-logo.png" alt="The Workspace Coworking Bellingham"></a></p>
 				</li>
