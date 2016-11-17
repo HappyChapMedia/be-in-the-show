@@ -17,18 +17,15 @@
 				<?php do_action( 'foundationpress_before_footer' ); ?>
 				<div class="footer-branding large-3 columns">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/be-in-the-show-logo-footer.png" alt="Be in the Show"></a>
-					<p class="date"><strong>January 29th</strong></p>
-					<p class="tagline"><small>A community </small><strong>talent show</strong><br><small class="salt">&amp;</small> <strong class="dance-showcase">dance showcase</strong></p>
+					<p class="date"><strong>January 21st</strong></p>
+					<p class="tagline"><small>A community </small><strong>talent showcase</strong></p>
 				</div>
 				<div class="footer-nav large-3 columns">
 					<?php wp_nav_menu( array('main' => 'main' )); ?>
 				</div>
-				<div class="branding large-4 columns">
-					<div class="bellingham-dental">
-						<p>Thanks to our main sponsor: <br> <a href="http://bellinghamdentalgroup.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/bellingham-dental-group.png" alt="Bellingham Dental Group"></a></p>
-					</div>
-					<div class="blue-skies">
-						<p>Proceeds benefiting: <br> <a href="http://www.blueskiesforchildren.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/blue-skies-for-children.png" alt="Blue Skies for Children"></a></p>
+				<div class="benefiting large-4 columns">
+					<div class="sylvia">
+						<p>Proceeds benefiting: <br> <a href="http://sylviacenterforthearts.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sylvia-center-logo.jpg" alt="Sylvia Center for the Arts"></a></p>
 					</div>
 					<div class="tds">
 						<p>Produced by: <br> <a href="http://www.thedancestudio.net" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dance-studio-logo-horiz.png" alt="The Dance Studio"></a></p>
@@ -41,12 +38,10 @@
 					<div class="photo-credits medium-8 columns">
 						<p><i class="fa fa-camera"></i> Photos via Flickr &ndash; <a href="https://www.flickr.com/photos/evarinaldiphotography/" target="_blank">Eva Rinaldi</a>, <a href="https://www.flickr.com/photos/walterpro/" target="_blank">Walter</a>, <a href="https://www.flickr.com/photos/jus10h/" target="_blank">Justin Higuchi</a> <span class="salt">&amp;</span> <a href="https://www.flickr.com/photos/familymwr/" target="_blank">U.S. Army</a></p>
 					</div>
-					<div class="design-credits medium-4 columns">
-						<p>Design by: <a href="http://www.happychapmedia.com/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/happy-chap-logo.png" alt="Blue Skies for Children"></a></p>
-					</div>
 				</div>
 			</div>
 		</div>
+		<?php get_template_part('parts/hc-colophon') ?>
 	
 		<?php do_action( 'foundationpress_layout_end' ); ?>
 	<?php if ( ! get_theme_mod( 'wpt_mobile_menu_layout' ) || get_theme_mod( 'wpt_mobile_menu_layout' ) == 'offcanvas' ) : ?>

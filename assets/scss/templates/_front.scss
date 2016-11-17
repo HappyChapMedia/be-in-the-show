@@ -14,7 +14,7 @@
 		background-size: cover;
 		background-position: bottom right;
 		// padding: rem-calc(30%) rem-calc(10%);
-		height: 600px;
+		min-height: 450px;
 		position: relative;
 		text-align: left;
 	}
@@ -24,7 +24,7 @@
 	}
 
 	@include breakpoint(large) {
-		height: rem-calc(700);
+		height: rem-calc(800);
 	}
 
 
@@ -108,7 +108,10 @@
 			font-size: rem-calc(80);
 		}
 		@include breakpoint (large) {
-			font-size: rem-calc(120);
+			font-size: rem-calc(140);
+		}
+		@include breakpoint (xlarge) {
+			font-size: rem-calc(170);
 		}
 	}
 

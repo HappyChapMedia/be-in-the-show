@@ -17,8 +17,8 @@ get_header(); ?>
 	<header id="front-hero" role="banner" style="background-image: url('<?php echo $image ?>')">
 		<div class="marketing">
 			<div class="tagline">
-				<h1><small>A community <br></small><strong>talent show</strong> <br><small class="salt">&amp;</small> <strong class="dance-showcase">dance showcase</strong></h1>
-				<p class="subheader">Friday, <strong>Jan. 29th</strong> @ <strong>The Mount Baker Theatre</strong> </p>
+				<h1><small>A community <br></small><strong>talent showcase</strong>.</h1>
+				<p class="subheader">Saturday, <strong>January 21st</strong><br> @ <strong>The Mount Baker Theatre</strong> </p>
 				<p class="cta"><a role="button" class="large button" href="<?php echo esc_url( home_url( '/about-the-show' ) ); ?>">See Show Details!</a></p>
 			</div>
 		</div>
@@ -52,7 +52,7 @@ get_header(); ?>
 
 	</section>
 
-	<section class="share">
+<!-- 	<section class="share">
 		<header class="share-intro">
 			<h2>Thanks for sharing some love!</h2>
 			<p>Thanks to the following folks for helping spread the word on Facebook! <a href="https://www.facebook.com/events/512174485622431/" target="_blank">Share our event </a>on your group/business/etc FB page and we'll toss your logo below! Hooray Bellingham!</p>
@@ -111,7 +111,7 @@ get_header(); ?>
 			</ul>
 		</header>
 
-	</section>
+	</section> -->
 
 
 

@@ -53,8 +53,8 @@
 			  font-size: 215%;
 			}
 		}
-		.branding {
-			padding-top: rem-calc(100);
+		.benefiting {
+			// padding-top: rem-calc(100);
 			color: $white;
 			text-align: center;
 			text-transform: uppercase;
@@ -62,6 +62,11 @@
 				padding-top: 30px;
 				img {
 					width: 165px;
+				}
+			}
+			.sylvia {
+				img {
+					border-radius: .5em;
 				}
 			}
 			.bellingham-dental {
