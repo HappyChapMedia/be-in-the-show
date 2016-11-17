@@ -36,7 +36,7 @@
 			<div class="footer-credits-contain">
 				<div class="footer-credits">
 					<div class="photo-credits medium-8 columns">
-						<p><i class="fa fa-camera"></i> Photos via Flickr &ndash; <a href="https://www.flickr.com/photos/evarinaldiphotography/" target="_blank">Eva Rinaldi</a>, <a href="https://www.flickr.com/photos/walterpro/" target="_blank">Walter</a>, <a href="https://www.flickr.com/photos/jus10h/" target="_blank">Justin Higuchi</a> <span class="salt">&amp;</span> <a href="https://www.flickr.com/photos/familymwr/" target="_blank">U.S. Army</a></p>
+						<p><i class="fa fa-camera"></i> Photos provided by <strong>Jenn Apps Photography</strong>.</p>
 					</div>
 				</div>
 			</div>
