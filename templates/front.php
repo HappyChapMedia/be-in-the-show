@@ -19,7 +19,7 @@ get_header(); ?>
 			<div class="tagline">
 				<h1><small>A community <br></small><strong>talent showcase</strong>.</h1>
 				<p class="subheader">Saturday, <strong>January 21st</strong><br> @ <strong>The Mount Baker Theatre</strong> </p>
-				<p class="cta"><a role="button" class="large button" href="<?php echo esc_url( home_url( '/about-the-show' ) ); ?>">See Show Details!</a></p>
+				<p class="cta"><a role="button" class="large button" href="<?php echo esc_url( home_url( '/about-the-show' ) ); ?>">See Show Details!</a> or <a role="button" class="large button" href="http://www.mountbakertheatre.com/shows/be-in-the-show-2/" target="_blank">Buy tickets here!</a></p>
 			</div>
 		</div>
 	</header>
@@ -37,7 +37,7 @@ get_header(); ?>
 			<div class="large-6 medium-12 large-pull-6 columns">
 				<h2>One stage, one community, one opportunity to see great Bellingham talent all in one place!</h2>
 				<p><strong>BE in the Show</strong> is a celebration of the performing arts in Bellingham. Local <em>dancers</em>, <em>singers</em>, <em>musicians</em>, <em>actors</em> and more will grace the beautiful <strong>Mount Baker Theatre</strong> main stage for a night of entertainment featuring a variety of talent from amateurs to professionals. <strong>BE</strong> a part of a new and fun tradition for Bellingham during our greyer months and add a bit of brightness with <strong>BE in the Show</strong>!</p>
-				<p class="cta"><a href="<?php echo esc_url( home_url( '/about-the-show' ) ); ?>" class="button large">Learn More</a> or <a href="http://www.mountbakertheatre.com/shows/be-in-the-show/" class="button large">Get Tickets!</a></p>
+				<p class="cta"><a href="<?php echo esc_url( home_url( '/about-the-show' ) ); ?>" class="button large">Learn More</a> or <a href="http://www.mountbakertheatre.com/shows/be-in-the-show-2/" class="button large">Get Tickets!</a></p>
 			</div>
 		</header>
 	</section>
