@@ -1,134 +1,54 @@
 // Page header
 
-#small-hero-image {
-    height: 275px;
-    background-position: left;
-}
-
 #front-hero {
-
 	padding: 0;
-	// float: right;
 
-	@include breakpoint(small) {
-		background-size: cover;
-		background-position: bottom right;
-		// padding: rem-calc(30%) rem-calc(10%);
-		min-height: 450px;
-		position: relative;
-		text-align: left;
-	}
-
-	@include breakpoint(medium) {
-		height: rem-calc(600);
-	}
-
-	@include breakpoint(large) {
-		height: rem-calc(800);
-	}
-
-
-	#watch {
-		section {
-			display: inline;
-		}
-
-		a {
-			color: #B4C9D1;
-			cursor: pointer;
-			font-weight: 400;
-			margin-right: rem-calc(20);
-		}
-
-		a:hover {
-			color: #fff;
-		}
-
+	background-color: $yellow;
+	.marketing {
+		@include grid-row();
 	}
 
 	.tagline {
-
-
-		// @media screen and (min-width: 320px) and (max-width: 870px) {
-		// 	@include grid-column(12);
-		// }
-
-		// @media screen and (min-width:871px) and (max-width: 1200px) {
-		// 	@include grid-column(7);
-		// 	float: right;
-		// }
-
-		// @media screen and (min-width: 1201px) {
-		// 	@include grid-column(7);
-		// 	float: right;
-			
-		// }
-
-		@include breakpoint(small) {
-			@include grid-column(12);
-		}
-
-		@include breakpoint(medium) {
-			@include grid-column(9);
-			float: right;
-		}
-		@include breakpoint(1381px) {
-			@include grid-column(7);
-			float: right;
-		}
-		@media screen and (min-width: 1024px) and (max-width: 1380px) {
-			@include grid-column(9);
-			float: right;
-		}
-
-	}
-
-	h1 {
-		font-size: rem-calc(80);
-		line-height: 1em;
-		font-weight: 200;
-		color: $blue;
-		strong {
-			color: $purple;
-			font-weight: 900;
-			text-transform: uppercase;
-		}
-		small {
-			color: $blue;
-			font-size: 60%;
-		}
-		.dance-showcase {
-			color: $blue;
-		}
-
-		@include breakpoint (small) {
-			font-size: rem-calc(70);
-		}
-		@include breakpoint (medium) {
+		text-align: center;
+		h1 {
 			font-size: rem-calc(80);
-		}
-		@include breakpoint (large) {
-			font-size: rem-calc(140);
-		}
-		@include breakpoint (xlarge) {
-			font-size: rem-calc(170);
-		}
+			line-height: 1em;
+			font-weight: 200;
+			color: $blue;
+			strong {
+				color: $purple;
+				font-weight: 900;
+				text-transform: uppercase;
+			}
+			small {
+				color: $blue;
+				font-size: 60%;
+			}
+			.dance-showcase {
+				color: $blue;
+			}
+
+			@include breakpoint (small) {
+				font-size: rem-calc(50);
+			}
+			@include breakpoint (medium) {
+				font-size: rem-calc(80);
+			}
+			@include breakpoint (large) {
+				font-size: rem-calc(120);
+			}
+		} /* h1 */
+		.subheader {
+			color: $secondary-color;
+			font-size: rem-calc(20);
+			@include breakpoint (large) {
+				font-size: rem-calc(35);
+			}
+		} /* subheader */
 	}
 
-	.subheader {
-		color: $secondary-color;
-		font-size: rem-calc(25);
-		@include breakpoint (large) {
-			font-size: rem-calc(35);
-		}
-	}
 
-}
 
-.home section header {
-	@include breakpoint(medium){
-		padding: rem-calc(100) rem-calc(50);
-	}
 }
 
 .section-intro {
@@ -142,41 +62,49 @@
 		font-size: rem-calc(20);
 		line-height: 1.6;
 	}
-	@include breakpoint(small) {
-		@include grid-column(12);
-		h2 {
-			font-size: rem-calc(30);
-		}
-	}
+}
 
-	@include breakpoint(medium) {
-		@include grid-column(10);
-		@include grid-column-offset(1);
-		h2 {
-			font-size: rem-calc(50);
-		}
+@include breakpoint(small) {
+	h2 {
+		font-size: rem-calc(30);
 	}
 }
+
+@include breakpoint(medium) {
+	h2 {
+		font-size: rem-calc(50);
+	}
+}
+
 
 .cta {
 	margin-top: rem-calc(60);
 	line-height: 4!important;
 }
 
+
 // Intro
 
-.home .intro {
+.home .show-intro {
 	// @include grid-row();
-	display: inline-block;
-	
 	background: $purple;
 	color: $white;
-
-	.section-intro {
+	padding: 4em 0;
+	text-align: center;
+	.mbt-image {
+		@include breakpoint(large) {
+		    @include grid-column(5);
+		}
+	}
+	.show-intro-contain {
+		@include breakpoint(large) {
+		    @include grid-column(7);
+		}
 		h2 {
 			color: $yellow;
+			font-weight: 700;
 			@include breakpoint(large){
-				font-size: 325%;
+				// font-size: 325%;
 			}
 		}
 		.mbt-image p {
@@ -190,64 +118,80 @@
 	}
 }
 
+// Perform
+.perform {
+	text-align: center;
+	background-color: $blue;
+	color: $yellow;
+	padding: 4em 0;
+	.slick-slider {
+		height: auto;
+	}
+	.perform-intro {
+		h2 {
+			font-weight: 900;
+			@include breakpoint(large) {
+			    font-size: 4em;
+			}
+		}
+		.button {
+			background-color: $purple;
+		}
+	}
+}
+.contain {
+	@include grid-row();
+	padding: 2em 0;
+}
+
+.benefits {
+	background-color: rgb(238, 169, 30);
+	color: $white;
+	text-align: center;
+	.benefits-logo {
+		@include breakpoint(large) {
+		    @include grid-column(4);
+		}
+		  
+	}
+	.benefits-intro {
+		@include breakpoint(large) {
+		    @include grid-column(8);
+		    text-align: left;
+		}
+	}
+}
+
+// Raffle
+.raffle-donors {
+	text-align: center;
+	padding: 4em 0;
+	header {
+		margin-bottom: 1em;
+		padding: 2em 0;
+	}
+	ul {
+		list-style: none;
+		li {
+			display: inline;
+			font-size: 1.5em;
+			font-weight: 700;
+			padding: .75em;
+			&:nth-child(2n) {
+				a {
+					color: darken($blue, 10%);
+				}
+			}
+		}
+	}
+}
+
 // Section divider
 .section-divider {
 	@include grid-row();
-
 	hr {
 		@include grid-column(12);
 		@extend .dotted;
 	}
 }
 
-
-// Perform
-.perform {
-	@include grid-row();
-	text-align: center;
-	.section-intro {
-		h2 {
-			color: $blue;
-		}
-	}
-}
-
-.share {
-	.share-intro {
-		text-align: center;
-	}
-	ul.share-logos {
-		list-style: none;
-		li {
-			display: inline-block;
-			padding: rem-calc(10) rem-calc(20);
-			text-align: center;
-		}
-		.logo-whats-up {
-			width: 275px;
-		}
-		.logo-makeshift {
-			width: 200px;
-		}
-		.logo-bellingham-dental {
-			width: 300px;
-			img {
-				padding-top: 10px;
-			}
-		}
-		.logo-back-east-bbq {
-			width: 175px;
-		}
-		.logo-wwu-cfpa {
-			width: 300px;
-		}
-		.logo-dh-home-inspection {
-			width: 175px;
-		}
-		.logo-workspace {
-			width: 225px;
-			position: relative;
-			bottom: 17px;
-		}
-	}
-}

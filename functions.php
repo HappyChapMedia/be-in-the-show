@@ -42,6 +42,12 @@ require_once( 'library/theme-support.php' );
 /** Add Nav Options to Customer */
 require_once( 'library/custom-nav.php' );
 
+/** Add Responsive Images */
+require_once( 'library/responsive-images.php' );
+
+/** Add Responsive Images */
+require_once( 'library/custom-slick-gallery-shortcodes.php' );
+
 define( 'GITHUB_UPDATER_EXTENDED_NAMING', true );
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
