@@ -19,6 +19,11 @@
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/be-in-the-show-logo-footer.png" alt="Be in the Show"></a>
 					<p class="date"><strong>January 21st</strong></p>
 					<p class="tagline"><small>A community </small><strong>talent showcase</strong></p>
+					<hr>
+					<section class="lead-sponsor-footer">
+						<p>Lead Sponsor:</p>
+						<a href="http://bellwetheragent.com/" target="_blank"><img src="http://www.beintheshow.com/wp-content/themes/be-in-the-show/assets/images/heather-simpson-bellwether-real-estate.png" alt="Heather Simpson - Bellwether Real Estate"></a>
+					</section>
 				</div>
 				<div class="footer-nav large-3 columns">
 					<?php wp_nav_menu( array('main' => 'main' )); ?>
