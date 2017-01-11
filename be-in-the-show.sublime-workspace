@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"show-intro",
+				"show-intro-contain\t(front.php)"
+			],
+			[
 				"backgrou",
 				"background-color"
 			],
@@ -119,16 +123,60 @@
 			"file": "templates/front.php",
 			"settings":
 			{
-				"buffer_size": 8840,
+				"buffer_size": 1067,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "footer.php",
+			"file": "parts/featured-gallery.php",
 			"settings":
 			{
-				"buffer_size": 2814,
+				"buffer_size": 548,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "library/custom-slick-gallery-shortcodes.php",
+			"settings":
+			{
+				"buffer_size": 10857,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "header.php",
+			"settings":
+			{
+				"buffer_size": 4705,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/scss/components/_slick-slider-theme.scss",
+			"settings":
+			{
+				"buffer_size": 4761,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/scss/components/_featured-image.scss",
+			"settings":
+			{
+				"buffer_size": 1059,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/scss/templates/_front.scss",
+			"settings":
+			{
+				"buffer_size": 2817,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -143,19 +191,10 @@
 			}
 		},
 		{
-			"file": "assets/scss/templates/_front.scss",
-			"settings":
-			{
-				"buffer_size": 4075,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "assets/scss/modules/_topbar.scss",
 			"settings":
 			{
-				"buffer_size": 1862,
+				"buffer_size": 1880,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -213,6 +252,9 @@
 	[
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/components",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/custom",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/components",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/global",
@@ -223,16 +265,26 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Casey/Downloads/acf-export-2017-01-02.json",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/library/custom-slick-gallery-shortcodes.php",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/functions.php",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/custom/slick-gallery.js",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/parts/featured-gallery.php",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/components/_slick-slider.scss",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/foundation.scss",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/footer.php",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/library/responsive-images.php",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/custom/lightbox.js",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/custom/slick.js",
+		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/components/_featured-image.scss",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/style.css",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/modules/_hc-colophon.scss",
-		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/foundation.scss",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/parts/hc-colophon.php",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/modules/_footer.scss",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/templates/_front.scss",
 		"/C/Users/Casey/Google Drive/Work/HappyChap Files/_CLIENTS/Sterling Real Estate Group/Website/PSDs/pre-footer",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/modules/_topbar.scss",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/components/_off-canvas.scss",
-		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/footer.php",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/modules/_content.scss",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/header-old.php",
 		"/D/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/header.php",
@@ -328,7 +380,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 34.0
 	},
 	"find_in_files":
 	{
@@ -344,6 +396,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"sylviacenter",
+			"&amp;",
+			"off-canvas",
 			"href=\"\"",
 			"src=\"",
 			"<a",
@@ -453,15 +508,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8840,
+						"buffer_size": 1067,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1084,
-								1084
+								1043,
+								1043
 							]
 						],
 						"settings":
@@ -475,38 +530,125 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "footer.php",
+					"file": "parts/featured-gallery.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2814,
+						"buffer_size": 548,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1549,
-								1549
+								512,
+								512
 							]
 						],
 						"settings":
 						{
-							"dfw_is_in_fs": true,
-							"dfw_side_bar_vis": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "library/custom-slick-gallery-shortcodes.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 10857,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6655,
+								6655
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1575.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4705,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3901,
+								3901
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 594.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "assets/scss/components/_slick-slider-theme.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4761,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								995,
+								995
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 353.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -516,7 +658,65 @@
 			"sheets":
 			[
 				{
-					"buffer": 2,
+					"buffer": 5,
+					"file": "assets/scss/components/_featured-image.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1059,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								289,
+								289
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "assets/scss/templates/_front.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2085,
+								2085
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 972.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
 					"file": "assets/scss/modules/_content.scss",
 					"semi_transient": false,
 					"settings":
@@ -541,53 +741,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "assets/scss/templates/_front.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4075,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2767,
-								2767
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 2592.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
+					"buffer": 8,
 					"file": "assets/scss/modules/_topbar.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1862,
+						"buffer_size": 1880,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1575,
-								1575
+								1020,
+								1020
 							]
 						],
 						"settings":
@@ -597,14 +768,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 132.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 9,
 					"file": "assets/scss/modules/_footer.scss",
 					"semi_transient": false,
 					"settings":
@@ -629,7 +800,7 @@
 						"translation.y": 228.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
@@ -663,7 +834,7 @@
 		"cols":
 		[
 			0.0,
-			0.595693779905,
+			0.624401913876,
 			1.0
 		],
 		"rows":
@@ -701,7 +872,7 @@
 		[
 			[
 				"",
-				"D:\\Ampps\\www\\lyndale\\wp-content\\themes\\lyndale\\lyndale.sublime-project"
+				"D:\\Ampps\\www\\slang\\wp-content\\themes\\slang\\slang.sublime-project"
 			]
 		],
 		"width": 620.0

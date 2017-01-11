@@ -16,13 +16,11 @@ get_header(); ?>
 			</div>
 		</div>
 	</header>
-	
 
 <?php while ( have_posts() ) : the_post(); ?>
 	<div class="entry-content">
 		<?php the_content(); ?>
 	</div> <!-- entry-content -->
  <?php endwhile;?>
-
 
 <?php get_footer(); ?>

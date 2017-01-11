@@ -86,20 +86,27 @@
 // Intro
 
 .home .show-intro {
-	// @include grid-row();
+	@include grid-row();
 	background: $purple;
 	color: $white;
-	padding: 4em 0;
 	text-align: center;
+	// display: block;
+	max-width: 100%;
+	margin: 0;
 	.mbt-image {
 		@include breakpoint(large) {
 		    @include grid-column(5);
 		}
+		display: block;
+		height: auto;
+		background-size: cover;
+		background-position: center;
 	}
 	.show-intro-contain {
 		@include breakpoint(large) {
 		    @include grid-column(7);
 		}
+		padding: 4em 0;
 		h2 {
 			color: $yellow;
 			font-weight: 700;
@@ -115,6 +122,17 @@
 				text-align: center;
 			}
 		}
+	}
+}
+
+.lead-sponsor {
+	text-align: center;
+	h2 {
+		font-size: 1.5em;
+		text-transform: uppercase;
+	}
+	img {
+		margin-bottom: 2em;
 	}
 }
 
@@ -140,24 +158,34 @@
 	}
 }
 .contain {
-	@include grid-row();
-	padding: 2em 0;
+	// @include grid-row();
+	padding: 2em;
 }
 
 .benefits {
 	background-color: rgb(238, 169, 30);
 	color: $white;
 	text-align: center;
-	.benefits-logo {
+	@include grid-row();
+	max-width: 100%;
+	margin: 0;
+	.benefits-bg {
 		@include breakpoint(large) {
 		    @include grid-column(4);
 		}
-		  
+		display: block;
+		opacity: .5;
+		background-size: cover;
+		padding: 4em;
 	}
 	.benefits-intro {
 		@include breakpoint(large) {
 		    @include grid-column(8);
-		    text-align: left;
+		    // text-align: left;
+		    padding: 2em;
+		    h2 {
+		    	font-size: 5em;
+		    }
 		}
 	}
 }
