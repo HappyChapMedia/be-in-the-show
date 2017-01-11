@@ -6328,6 +6328,8 @@ a span.screen-reader-text {
         font-size: 1.5625rem;
         color: #F6ED54;
         text-transform: uppercase; }
+      #footer-container #footer .footer-branding .lead-sponsor-footer img {
+        border-radius: .5em; }
     #footer-container #footer .footer-nav {
       padding-top: 1.25rem;
       display: none;
