@@ -141,7 +141,7 @@
 			"file": "pages/home.html",
 			"settings":
 			{
-				"buffer_size": 5903,
+				"buffer_size": 6340,
 				"encoding": "UTF-8",
 				"line_ending": "Windows",
 				"name": "<section class=\"perform\">"
@@ -586,15 +586,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5903,
+						"buffer_size": 6340,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1010,
-								1010
+								579,
+								579
 							]
 						],
 						"settings":
@@ -605,7 +605,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 72.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -882,7 +882,7 @@
 		"cols":
 		[
 			0.0,
-			0.59363222047,
+			1.0,
 			1.0
 		],
 		"rows":
@@ -920,7 +920,7 @@
 		[
 			[
 				"",
-				"D:\\Ampps\\www\\c-square\\wp-content\\themes\\c-square\\c-square.sublime-project"
+				"D:\\Ampps\\www\\lyndale\\wp-content\\themes\\lyndale\\lyndale.sublime-project"
 			]
 		],
 		"width": 620.0
@@ -941,7 +941,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 248.0,
 	"status_bar_visible": true,
 	"template_settings":

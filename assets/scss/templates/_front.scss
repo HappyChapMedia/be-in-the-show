@@ -136,18 +136,38 @@
 	img {
 		margin-bottom: 2em;
 	}
-	@include breakpoint(large) {
-	    .sponsor-intro {
-	    	@include grid-column(6);
-	    	text-align: left;
-	    	border-left: solid 1px;
-	    	padding: 4em 2em;
-	    }
+	    // .sponsor-intro {
+	    // 	@include grid-column(6);
+	    // 	text-align: left;
+	    // 	border-left: solid 1px;
+	    // 	padding: 4em 2em;
+	    // }
+	@include breakpoint(medium) {
 	    .logo {
+	    	@include grid-column(6);
+	    	border-right: solid 1px;
+	    }
+	    .logo-rotary {
 	    	@include grid-column(6);
 	    }
 	}
-	  
+	@include breakpoint(xlarge) {
+		.logo {
+	    	padding-right: 8em;
+		}
+	    
+	}
+	.rotary {
+		width: 200px;
+	}
+	.sponsor-intro p {
+		margin-top: 2em;
+		font-size: 1.5em;
+		@include breakpoint(large) {
+		    padding: 0 3em;
+		}
+		  
+	}
 }
 
 // Perform
@@ -193,6 +213,7 @@
 		padding: 4em;
 	}
 	.benefits-intro {
+		padding: 1em;
 		@include breakpoint(large) {
 		    @include grid-column(8);
 		    // text-align: left;
