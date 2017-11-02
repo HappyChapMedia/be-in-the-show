@@ -1,7 +1,10 @@
 // Page header
 
 #front-hero {
-	padding: 0;
+		padding: 4em 1em;
+	@include breakpoint(large){
+		padding: 4em;
+	}
 
 	background-color: $yellow;
 	.marketing {
@@ -103,10 +106,11 @@
 		background-position: center;
 	}
 	.show-intro-contain {
+		padding: 4em 1em;
 		@include breakpoint(large) {
 		    @include grid-column(7);
+		    padding: 4em;
 		}
-		padding: 4em 0;
 		h2 {
 			color: $yellow;
 			font-weight: 700;
@@ -127,6 +131,10 @@
 
 .lead-sponsor {
 	text-align: center;
+	padding: 4em 1em;
+	@include breakpoint(large){
+		padding: 4em;
+	}
 	h2 {
 		font-size: 1.5em;
 		text-transform: uppercase;
@@ -142,21 +150,21 @@
 	    // 	border-left: solid 1px;
 	    // 	padding: 4em 2em;
 	    // }
-	@include breakpoint(medium) {
-	    .logo {
-	    	@include grid-column(6);
-	    	border-right: solid 1px;
-	    }
-	    .logo-rotary {
-	    	@include grid-column(6);
-	    }
-	}
-	@include breakpoint(xlarge) {
-		.logo {
-	    	padding-right: 8em;
-		}
+	// @include breakpoint(medium) {
+	//     .logo {
+	//     	@include grid-column(6);
+	//     	border-right: solid 1px;
+	//     }
+	//     .logo-rotary {
+	//     	@include grid-column(6);
+	//     }
+	// }
+	// @include breakpoint(xlarge) {
+	// 	.logo {
+	//     	padding-right: 8em;
+	// 	}
 	    
-	}
+	// }
 	.rotary {
 		width: 200px;
 	}
@@ -197,29 +205,44 @@
 }
 
 .benefits {
-	background-color: rgb(238, 169, 30);
+	background-color: $blue;
 	color: $white;
 	text-align: center;
 	@include grid-row();
 	max-width: 100%;
 	margin: 0;
+	display: table; 
+	a {
+		color: $yellow;
+		border-color: lighten($blue, 10%);
+		// min-height: 600px;
+	}
+	.button {
+		background-color: $yellow;
+		color: $blue;
+		border-color: lighten($blue, 10%);
+	}
 	.benefits-bg {
+		@include grid-column(12);
 		@include breakpoint(large) {
 		    @include grid-column(4);
 		}
 		display: block;
-		opacity: .5;
+		display: table-cell; vertical-align: middle;
 		background-size: cover;
 		padding: 4em;
 	}
 	.benefits-intro {
-		padding: 1em;
+		display: table-cell; 
+		vertical-align: middle;
+		padding: 4em 1em;
+		@include grid-column(12);
 		@include breakpoint(large) {
 		    @include grid-column(8);
 		    // text-align: left;
-		    padding: 2em;
+		    padding: 4em;
 		    h2 {
-		    	font-size: 5em;
+		    	font-size: 3em;
 		    }
 		}
 	}

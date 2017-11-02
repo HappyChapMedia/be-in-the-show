@@ -83,6 +83,9 @@
 
 .title-bar {
   background: $primary-color;
+  @include breakpoint(small only){
+      display: block!important;
+  }
   @include breakpoint(medium) {
     display: none;
   }
@@ -93,6 +96,10 @@
   }
 
 
+}
+
+.top-bar-right, .top-bar-left {
+  width: auto;
 }
 
 .top-bar .fa-facebook-square {

@@ -17,7 +17,7 @@
 				<?php do_action( 'foundationpress_before_footer' ); ?>
 				<div class="footer-branding large-3 columns">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/be-in-the-show-logo-footer.png" alt="Be in the Show"></a>
-					<p class="date"><strong>January 21st</strong></p>
+					<p class="date"><strong>January 27th</strong></p>
 					<p class="tagline"><small>A community </small><strong>talent showcase</strong></p>
 					<hr>
 					<section class="lead-sponsor-footer">
@@ -30,7 +30,7 @@
 				</div>
 				<div class="benefiting large-4 columns">
 					<div class="sylvia">
-						<p>Proceeds benefiting: <br> <a href="http://sylviacenterforthearts.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/sylvia-center-logo.jpg" alt="Sylvia Center for the Arts"></a></p>
+						<p>Proceeds benefiting: <br> <a href="http://www.bellinghamschoolsfoundation.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/bham-public-schools-foundation-stacked-low-res-white.png" alt="Bellingham Public Schools Foundation: Visual and Performing Arts"></a></p>
 					</div>
 					<div class="tds">
 						<p>Produced by: <br> <a href="http://www.thedancestudio.net" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dance-studio-logo-horiz.png" alt="The Dance Studio"></a></p>
