@@ -18,7 +18,7 @@
 				<div class="footer-branding large-3 columns">
 					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/be-in-the-show-logo-footer.png" alt="Be in the Show"></a>
 					<p class="date"><strong>January 27th</strong></p>
-					<p class="tagline"><small>A community </small><strong>talent showcase</strong></p>
+					<p class="tagline"><small>A community </small><strong>variety show</strong></p>
 					<hr>
 					<section class="lead-sponsor-footer">
 						<p>Lead Sponsor:</p>
