@@ -123,7 +123,7 @@
 			"file": "templates/front.php",
 			"settings":
 			{
-				"buffer_size": 1066,
+				"buffer_size": 1049,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -178,6 +178,15 @@
 			"settings":
 			{
 				"buffer_size": 1059,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "assets/javascript/custom/lightbox.js",
+			"settings":
+			{
+				"buffer_size": 15642,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -262,6 +271,11 @@
 	[
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show",
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets",
+		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript",
+		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/custom",
+		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/vendor",
+		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/vendor/motion-ui",
+		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/vendor/what-input",
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss",
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/components",
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/modules",
@@ -515,7 +529,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -524,15 +538,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1066,
+						"buffer_size": 1049,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								698,
-								643
+								1025,
+								1025
 							]
 						],
 						"settings":
@@ -546,7 +560,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -576,7 +590,7 @@
 						"translation.y": 120.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -602,10 +616,10 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 54.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -634,7 +648,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
@@ -663,7 +677,7 @@
 						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 7,
 					"type": "text"
 				},
 				{
@@ -693,13 +707,13 @@
 						"translation.y": 353.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 9,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -715,8 +729,8 @@
 						"selection":
 						[
 							[
-								389,
-								389
+								419,
+								419
 							]
 						],
 						"settings":
@@ -733,6 +747,36 @@
 				},
 				{
 					"buffer": 7,
+					"file": "assets/javascript/custom/lightbox.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15642,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1167,
+								1167
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "assets/scss/templates/_front.scss",
 					"semi_transient": false,
 					"settings":
@@ -761,11 +805,11 @@
 						"translation.y": 1035.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "assets/scss/modules/_content.scss",
 					"semi_transient": false,
 					"settings":
@@ -790,11 +834,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "assets/scss/modules/_topbar.scss",
 					"semi_transient": false,
 					"settings":
@@ -820,11 +864,11 @@
 						"translation.y": 1170.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 5,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "assets/scss/modules/_footer.scss",
 					"semi_transient": false,
 					"settings":
@@ -849,7 +893,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
@@ -935,7 +979,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 0,
+	"selected_group": 1,
 	"settings":
 	{
 	},

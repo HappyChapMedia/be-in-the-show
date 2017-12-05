@@ -30,7 +30,7 @@
 				</div>
 				<div class="benefiting large-4 columns">
 					<div class="sylvia">
-						<p>Proceeds benefiting: <br> <a href="http://www.bellinghamschoolsfoundation.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/bham-public-schools-foundation-stacked-low-res-white.png" alt="Bellingham Public Schools Foundation: Visual and Performing Arts"></a></p>
+						<p>Profits benefiting: <br> <a href="http://www.bellinghamschoolsfoundation.org/" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/bham-public-schools-foundation-stacked-low-res-white.png" alt="Bellingham Public Schools Foundation: Visual and Performing Arts"></a></p>
 					</div>
 					<div class="tds">
 						<p>Produced by: <br> <a href="http://www.thedancestudio.net" target="_blank"><img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/dance-studio-logo-horiz.png" alt="The Dance Studio"></a></p>

@@ -109,7 +109,7 @@
 		padding: 4em 1em;
 		@include breakpoint(large) {
 		    @include grid-column(7);
-		    padding: 4em;
+		    padding: 6em 4em;
 		}
 		h2 {
 			color: $yellow;
@@ -240,7 +240,7 @@
 		@include breakpoint(large) {
 		    @include grid-column(8);
 		    // text-align: left;
-		    padding: 4em;
+		    padding: 6em 4em;
 		    h2 {
 		    	font-size: 3em;
 		    }
