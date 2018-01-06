@@ -132,7 +132,16 @@
 			"file": "pages/home.html",
 			"settings":
 			{
-				"buffer_size": 6637,
+				"buffer_size": 6782,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "pages/about-the-show.html",
+			"settings":
+			{
+				"buffer_size": 2383,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -141,7 +150,7 @@
 			"file": "footer.php",
 			"settings":
 			{
-				"buffer_size": 3228,
+				"buffer_size": 3227,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -174,28 +183,10 @@
 			}
 		},
 		{
-			"file": "assets/scss/components/_featured-image.scss",
-			"settings":
-			{
-				"buffer_size": 1059,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "assets/javascript/custom/lightbox.js",
-			"settings":
-			{
-				"buffer_size": 15642,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "assets/scss/templates/_front.scss",
 			"settings":
 			{
-				"buffer_size": 4401,
+				"buffer_size": 4409,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -273,9 +264,6 @@
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets",
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript",
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/custom",
-		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/vendor",
-		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/vendor/motion-ui",
-		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/vendor/what-input",
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss",
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/components",
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/modules",
@@ -287,6 +275,8 @@
 	],
 	"file_history":
 	[
+		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/scss/components/_featured-image.scss",
+		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/assets/javascript/custom/lightbox.js",
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-content/themes/be-in-the-show/pages/home.html",
 		"/C/Program Files (x86)/Ampps/www/beintheshow/wp-config.php",
 		"/C/Users/Casey/Downloads/acf-export-2017-01-02.json",
@@ -404,7 +394,7 @@
 	],
 	"find":
 	{
-		"height": 35.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -420,6 +410,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"proceeds",
+			"Fund",
 			"data-equalizer-watch=\"benefits\"",
 			"Sylvia Center",
 			"http://www.sylviacenterforthearts.org",
@@ -529,7 +521,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -545,8 +537,8 @@
 						"selection":
 						[
 							[
-								1025,
-								1025
+								872,
+								872
 							]
 						],
 						"settings":
@@ -560,7 +552,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -569,7 +561,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6637,
+						"buffer_size": 6782,
 						"regions":
 						{
 						},
@@ -577,7 +569,7 @@
 						[
 							[
 								0,
-								6637
+								6782
 							]
 						],
 						"settings":
@@ -587,27 +579,56 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 120.0,
+						"translation.y": 45.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "footer.php",
+					"file": "pages/about-the-show.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3228,
+						"buffer_size": 2383,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								726,
-								726
+								456,
+								456
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3227,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1284,
+								1284
 							]
 						],
 						"settings":
@@ -623,7 +644,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "parts/featured-gallery.php",
 					"semi_transient": false,
 					"settings":
@@ -648,11 +669,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "header.php",
 					"semi_transient": false,
 					"settings":
@@ -677,11 +698,11 @@
 						"translation.y": 594.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "assets/scss/components/_slick-slider-theme.scss",
 					"semi_transient": false,
 					"settings":
@@ -707,30 +728,30 @@
 						"translation.y": 353.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 8,
 					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
-					"buffer": 6,
-					"file": "assets/scss/components/_featured-image.scss",
+					"buffer": 7,
+					"file": "assets/scss/templates/_front.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1059,
+						"buffer_size": 4409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								419,
-								419
+								1715,
+								1715
 							]
 						],
 						"settings":
@@ -739,37 +760,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "assets/javascript/custom/lightbox.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15642,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1167,
-								1167
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1170.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -777,39 +768,6 @@
 				},
 				{
 					"buffer": 8,
-					"file": "assets/scss/templates/_front.scss",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4401,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3620,
-								3621
-							],
-							[
-								3729,
-								3729
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1035.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
 					"file": "assets/scss/modules/_content.scss",
 					"semi_transient": false,
 					"settings":
@@ -834,11 +792,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 11,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 9,
 					"file": "assets/scss/modules/_topbar.scss",
 					"semi_transient": false,
 					"settings":
@@ -868,7 +826,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 10,
 					"file": "assets/scss/modules/_footer.scss",
 					"semi_transient": false,
 					"settings":
@@ -893,7 +851,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 7,
 					"type": "text"
 				}
 			]
@@ -987,7 +945,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 183.0,
+	"side_bar_width": 236.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
