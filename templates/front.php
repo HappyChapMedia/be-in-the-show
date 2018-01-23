@@ -12,7 +12,7 @@ get_header(); ?>
 				<h1><small>A community </small><br><strong>variety show</strong></h1>
 				<p class="subheader">Celebrating and benefiting the performing arts in Bellingham and Whatcom County.</p>
 				<p class="subheader"><span itemprop="startDate" content="2018-01-27T018:30">Saturday, <strong>January 27th</strong></span> @ <strong itemprop="location"> The Mount Baker Theatre</strong> </p>
-				<p class="cta"><a role="button" class="large button" href="<?php echo esc_url( home_url( '/' ) ); ?>about-the-show">See Show Details!</a> or <a role="button" class="large button" href="<?php echo esc_url( home_url( '/' ) ); ?>perform">Be a Performer!</a></p>
+				<p class="cta"><a role="button" class="large button" href="<?php echo esc_url( home_url( '/' ) ); ?>about-the-show">See Show Details!</a> or <a role="button" class="large button" href="http://www.mountbakertheatre.com/shows/be-in-the-show-2018/">Buy Tickets!</a></p>
 			</div>
 		</div>
 	</header>

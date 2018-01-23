@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"targe",
+				"target=\"_blank"
+			],
+			[
 				"back",
 				"background-size\t(_featured-image.scss)"
 			],
@@ -129,10 +133,13 @@
 			}
 		},
 		{
+			"contents": "        <section class=\"lead-sponsor\">\n            <div class=\"contain row\">\n                <h2>Lead Sponsor:</h2>\n                <div class=\"row\" data-equalizer=\"lead\" data-equalizer-mq=\"large-up\" equalize_on_stack=\"false\">\n                    <div class=\"logo\" data-equalizer-watch=\"lead\">\n                        <a href=\"http://bellwetheragent.com/\" target=\"_blank\" rel=\"noopener\"><img class=\"bellwether\" src=\"http://www.beintheshow.com/wp-content/themes/be-in-the-show/assets/images/heather-simpson-bellwether-real-estate.png\" alt=\"Heather Simpson - Bellwether Real Estate\" /></a>\n                    </div>\n                </div>\n                <div class=\"sponsor-intro\">\n                    <p>A huge thank-you to <a href=\"http://bellwetheragent.com/\" target=\"_blank\" rel=\"noopener\">Heather Simpson / Bellwether Real Estate</a> being our lead sponsor and helping to fund the promotion of this community show!</p>\n                </div>\n            </div>\n            <hr>\n            <div class=\"contain row\">\n                <h2>Supporting Sponsors:</h2>\n\n                <div class=\"sponsor-logos\">\n                    <a href=\"https://www.peoplesbank-wa.com/\" target=\"_blank\"><img src=\"\" alt=\"\"></a>\n                </div>\n                \n            </div>\n        </section><!-- lead-sponsor -->\n\n        <!-- <section class=\"perform\">\n            <p>[gallery ids=\"107,106,105,104,103,102,101\" size=\"fp-small\" slides_to_show=\"3\"]</p>\n            <div class=\"contain row\">\n                <header class=\"perform-intro\">\n                    <h2>Perform in the Show!</h2>\n                    <p>Now is your chance to shine! Perform under the lights on the big stage at the Mount Baker Theatre! Singers, dancers, magicians, actors, contortionists, acrobats, and performers of all types are encouraged to take part in this exciting production and <strong>BE in the Show</strong></p>\n                    <p class=\"cta\"><a href=\"http://www.beintheshow.com/perform\" class=\"button large\">Learn more about performing</a></p>\n                </header>\n            </div>\n        </section>--><!-- perform -->\n\n        <section class=\"benefits\" data-equalizer=\"benefits\" data-equalizer-mq=\"large-up\" equalize_on_stack=\"false\">\n            <header class=\"benefits-intro\" data-equalizer-watch=\"benefits\">\n                <h2>All profits benefit the <br /><strong>Bellingham Public Schools Foundation: Visual and Performing Arts Programs!</strong></h2>\n                <p>We're proud to announce that this year's show will benefit the <a href=\"http://www.bellinghamschoolsfoundation.org/\">Bellingham Public Schools Foundation: Visual and Performing Arts Programs</a>, providing schools with the resources they need to help kids succeed.</p>\n                <p><a href=\"http://www.bellinghamschoolsfoundation.org/\" target=\"_blank\" class=\"button large\" rel=\"noopener\">More About <strong>Bellingham Public Schools Foundation</strong></a></p>\n            </header>\n            <div class=\"benefits-bg\" data-equalizer-watch=\"benefits\" style=\"background-image: url('http://www.beintheshow.com/wp-content/themes/be-in-the-show/assets/images/sqhs.jpg');\">\n                <img src=\"http://www.beintheshow.com/wp-content/themes/be-in-the-show/assets/images/bham-public-schools-foundation-stacked-low-res-white.png\" alt=\"Bellingham Public Schools Foundation\" />\n            </div>\n        </section><!-- benefits -->\n\n        <section class=\"show-intro\" role=\"main\" data-equalizer=\"show-intro\" data-equalizer-mq=\"large-up\" equalize_on_stack=\"false\">\n            <div class=\"mbt-image\" style=\"background-image: url('http://www.beintheshow.com/wp-content/themes/be-in-the-show/assets/images/MBT-main-stage-vert-text.jpg');\" data-equalizer-watch=\"show-intro\">\n            <img src=\"http://www.beintheshow.com/wp-content/themes/be-in-the-show/assets/images/at-mbt.png\" alt=\"At the Mount Baker Theatre\" />\n            </div>\n                <header class=\"show-intro-contain\" data-equalizer-watch=\"show-intro\">\n                    <h2>One stage, one community, one opportunity to see great Bellingham talent all in one place!</h2>\n                    <p><strong>BE in the Show</strong> is a celebration of the performing arts in Bellingham. Local <em>dancers</em>, <em>singers</em>, <em>musicians</em>, <em>actors</em> and more will grace the beautiful <strong>Mount Baker Theatre</strong> main stage for a night of entertainment featuring a variety of talent from amateurs to professionals. <strong>BE</strong> a part of a new and fun tradition for Bellingham during our greyer months and add a bit of brightness with <strong>BE in the Show</strong>!</p>\n                    <p class=\"cta\"><a href=\"http://www.beintheshow.com/about-the-show\" class=\"button large\">Learn More</a> or <a href=\"http://www.beintheshow.com/perform\" class=\"button large\">Be a Performer!</a></p>\n                </header>\n        </section><!-- intro -->\n\n        <section class=\"raffle-donors\">\n            <div class=\"contain\">\n                <header>\n                    <h2>Thanks to our raffle prize donors!</h2>\n                    <p>Buy a raffle ticket or two for a chance to win a gift basket full of fun stuff and gift cards from awesome local businesses. All raffle funds go to the <a href=\"http://www.bellinghamschoolsfoundation.org/\" target=\"_blank\" rel=\"noopener\">Bellingham Public Schools Foundation - Visual &amp; Performing Arts Programs</a>!</p>\n                </header>\n                <ul class=\"raffle-list\">\n                    <li><a href=\"http://www.villagebooks.com/\" target=\"_blank\" rel=\"noopener\">Village Books</a></li>\n                    <li><a href=\"http://northsiderestaurant.com/\" target=\"_blank\" rel=\"noopener\">Northside Restaurant</a></li>\n                    <li><a href=\"http://pureblissdesserts.com/\" target=\"_blank\" rel=\"noopener\">Pure Bliss Desserts</a></li>\n                    <li><a href=\"https://kulshanbrewery.com/\" target=\"_blank\" rel=\"noopener\">Kulshan Brewing</a></li>\n                    <li><a href=\"http://chuckanutbreweryandkitchen.com/\" target=\"_blank\" rel=\"noopener\">Chuckanut Brewery</a></li>\n                    <li><a href=\"https://www.modsock.com/\" target=\"_blank\" rel=\"noopener\">Mod Sock</a></li>\n                    <li><a href=\"http://wanderbrewing.com/\" target=\"_blank\" rel=\"noopener\">Wander Brewing</a></li>\n                    <li><a href=\"https://www.bbaybrewery.com/\" target=\"_blank\" rel=\"noopener\">Boundary Bay Brewery</a></li>\n                    <li><a href=\"http://www.theforkatagatebay.com/\" target=\"_blank\" rel=\"noopener\">The Fork</a></li>\n                    <li><a href=\"http://www.bagelrybellingham.com/\" target=\"_blank\" rel=\"noopener\">The Bagelry</a></li>\n                    <!-- <li><a href=\"\" target=\"_blank\" rel=\"noopener\"></a></li> -->\n                    <!-- <li><a href=\"http://www.mallardicecream.com\" target=\"_blank\" rel=\"noopener\">Mallard Ice Cream</a></li>\n                    <li><a href=\"http://www.maikham.com\" target=\"_blank\" rel=\"noopener\">Maikham</a></li>\n                    <li><a href=\"https://www.facebook.com/BrothaDudes/\" target=\"_blank\" rel=\"noopener\">Brotha Dudes</a></li>\n                    <li><a href=\"https://www.facebook.com/cosmosbistrobellingham/\" target=\"_blank\" rel=\"noopener\">Cosmos</a></li>\n                    <li><a href=\"http://www.bagelrybellingham.com/\" target=\"_blank\" rel=\"noopener\">The Bagelry</a></li>\n                    <li><a href=\"https://woodscoffee.com/\" target=\"_blank\" rel=\"noopener\">Woods Coffee</a></li>\n                    <li><a href=\"http://www.wanderbrewing.com/\" target=\"_blank\" rel=\"noopener\">Wander Brewing</a></li>\n                    <li><a href=\"http://www.aslanbrewing.com/\" target=\"_blank\" rel=\"noopener\">Aslan Brewing</a></li>\n                    <li><a href=\"http://www.bbaybrewery.com/\" target=\"_blank\" rel=\"noopener\">Boundary Bay Brewery</a></li>\n                    <li><a href=\"http://www.pickfordfilmcenter.org/\" target=\"_blank\" rel=\"noopener\">Pickford Film Center</a></li> -->\n                </ul>\n            </div>\n        </section>",
 			"file": "pages/home.html",
+			"file_size": 7965,
+			"file_write_time": 131596726427971454,
 			"settings":
 			{
-				"buffer_size": 6782,
+				"buffer_size": 8053,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -561,7 +568,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6782,
+						"buffer_size": 8053,
 						"regions":
 						{
 						},
@@ -569,7 +576,7 @@
 						[
 							[
 								0,
-								6782
+								8053
 							]
 						],
 						"settings":
@@ -579,10 +586,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 45.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -763,7 +770,7 @@
 						"translation.y": 1170.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -937,7 +944,7 @@
 		],
 		"width": 0.0
 	},
-	"selected_group": 1,
+	"selected_group": 0,
 	"settings":
 	{
 	},
